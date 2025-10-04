@@ -52,7 +52,7 @@
                                         <xs:element name="diaChi" type="limitedDiaChi" />
                                         <xs:element name="sdt" type="limitedSDT" />
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="NXB_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -68,7 +68,7 @@
                                         <xs:element name="tenTacGia" type="limitedTen" />
                                         <xs:element name="ngaySinh" type="limitedNgaySinh" />
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="TacGia_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -84,7 +84,7 @@
                                     <xs:sequence>
                                         <xs:element name="tenTheLoai" type="limitedTen" />
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="TheLoai_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -120,7 +120,7 @@
                                             </xs:simpleType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="Sach_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -170,7 +170,7 @@
                                             </xs:simpleType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="BanSaoSach_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -222,7 +222,7 @@
                                             </xs:simpleType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="NguoiDung_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -250,7 +250,7 @@
                                             </xs:simpleType>
                                         </xs:element>
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="PhieuMuon_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -282,9 +282,9 @@
                                         </xs:element>
                                         <xs:element name="ngayXuPhat" type="limitedDate" />
                                         <xs:element name="ngayDongPhat" type="limitedDate" />
-                                        <xs:element name="daDong" type="xs:boolean" default="false" />
+                                        <xs:element name="daTra" type="xs:boolean" default="false" />
                                     </xs:sequence>
-                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                    <xs:attribute name="PhieuPhat_id" type="xs:string" use="required" />
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
@@ -298,42 +298,42 @@
         <!--Khóa chính-->
         <xs:key name="primaryKeyNhaXuatBan">
             <xs:selector xpath="nhaXuatBans/nhaXuatBan" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@NXB_id" />
         </xs:key>
 
         <xs:key name="primaryKeyTacGia">
             <xs:selector xpath="tacGias/tacGia" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@TacGia_id" />
         </xs:key>
 
         <xs:key name="primaryKeyTheLoai">
             <xs:selector xpath="theLoais/theLoai" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@TheLoai_id" />
         </xs:key>
 
         <xs:key name="primaryKeySach">
             <xs:selector xpath="sachs/sach" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@Sach_id" />
         </xs:key>
 
         <xs:key name="primaryKeyBanSaoSach">
             <xs:selector xpath="banSaoSachs/banSaoSach" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@BanSaoSach_id" />
         </xs:key>
 
         <xs:key name="primaryKeyNguoiDung">
             <xs:selector xpath="nguoiDungs/nguoiDung" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@NguoiDung_id" />
         </xs:key>
 
         <xs:key name="primaryKeyPhieuMuon">
             <xs:selector xpath="phieuMuons/phieuMuon" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@PhieuMuon_id" />
         </xs:key>
 
         <xs:key name="primaryKeyPhieuPhat">
             <xs:selector xpath="phieuPhats/phieuPhat" />
-            <xs:field xpath="@id" />
+            <xs:field xpath="@PhieuPhat_id" />
         </xs:key>
 
 
