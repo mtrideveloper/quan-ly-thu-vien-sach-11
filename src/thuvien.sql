@@ -75,6 +75,7 @@ CREATE TABLE PhieuMuon (
   ngay_muon         DATE NOT NULL,
   han_tra           DATE NOT NULL,
   ngay_tra          DATE,
+  trang_thai        ENUM('dang_muon','da_tra','qua_han') DEFAULT 'dang_muon',
   FOREIGN KEY (bansao_id) REFERENCES BanSaoSach(bansao_id),
   FOREIGN KEY (nguoidung_id) REFERENCES NguoiDung(nguoidung_id)
 );
@@ -83,6 +84,7 @@ CREATE TABLE PhieuMuon (
 CREATE TABLE PhieuPhat (
   phieuphat_id      VARCHAR(36) PRIMARY KEY,
   phieumuon_id      VARCHAR(36) NOT NULL,
+  ly_do             VARCHAR(255) NOT NULL,
   so_tien           DECIMAL(10,2) NOT NULL,
   da_tra            BOOLEAN DEFAULT FALSE,
   ngay_xu_phat      DATE NOT NULL,

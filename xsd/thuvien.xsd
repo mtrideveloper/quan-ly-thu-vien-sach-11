@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:simpleType name="limitedTen">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="limitedDiaChi">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="100"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="limitedSDT">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1000000000" /> 
+            <xs:maxInclusive value="9999999999" /> 
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="limitedNgaySinh">
+        <xs:restriction base="xs:date">
+            <xs:minInclusive value="1930-01-01" />
+            <xs:maxInclusive value="2025-12-31" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="limitedDate">
+        <xs:restriction base="xs:date">
+            <xs:minInclusive value="2000-01-01" />
+            <xs:maxInclusive value="2050-12-31" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+    
+    <xs:element name="thuvien">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nhaXuatBan" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tenNxb" type="limitedTen" />
+                            <xs:element name="diaChi" type="limitedDiaChi" />
+                            <xs:element name="sdt" type="limitedSDT" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="tacGia" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tenTacGia" type="limitedTen" />
+                            <xs:element name="ngaySinh" type="limitedNgaySinh" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="theLoai" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tenTheLoai" type="limitedTen" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="sach" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tieuDe" type="limitedTen" />
+                            <xs:element name="nhaXuatBanRef" type="xs:string" />
+                            <xs:element name="tacGiaRef" type="xs:string" />
+                            <xs:element name="theLoaiRef" type="xs:string" />
+                            <xs:element name="nguoidungRef" type="xs:string" />
+                            <xs:element name="namXuatBan" type="xs:gYear" />
+                            <xs:element name="soLuong">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1" />
+                                        <xs:maxInclusive value="1000" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="tomTat">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="500" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="sachTacGia" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sachRef" type="xs:string" />
+                            <xs:element name="tacGiaRef" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="banSaoSach" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sachRef" type="xs:string" />
+                            <xs:element name="maVach">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1000000000000" />
+                                        <xs:maxInclusive value="9999999999999" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="trangThai">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Đã mượn" />
+                                        <xs:enumeration value="Có sẵn" />
+                                        <xs:enumeration value="Mất" />
+                                        <xs:enumeration value="Bảo hành" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="nguoiDung" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="hoTen" type="limitedTen" />
+                            <xs:element name="email">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="matKhau">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:minLength value="8" />
+                                        <xs:maxLength value="20" />
+                                        <xs:pattern value="[A-Za-z0-9@$!%*?&amp;]{8,20}" />   
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="sdt" type="limitedSDT" />
+                            <xs:element name="diaChi" type="limitedDiaChi" />
+                            <xs:element name="ngayThamGia" type="limitedDate" />
+                            <xs:element name="trangThai">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Hoạt động" />
+                                        <xs:enumeration value="Ngừng hoạt động" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="vaiTro">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="admin" />
+                                        <xs:enumeration value="user" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="phieuMuon" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nguoiDungRef" type="xs:string" />
+                            <xs:element name="banSaoSachRef" type="xs:string" />
+                            <xs:element name="ngayMuon" type="limitedDate" />
+                            <xs:element name="hanTra" type="limitedDate" />
+                            <xs:element name="trangThai">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Đang mượn" />
+                                        <xs:enumeration value="Đã trả" />
+                                        <xs:enumeration value="Quá hạn" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+
+                </xs:element>
+
+                <xs:element name="phieuPhat" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="phieuMuonRef" type="xs:string" />
+                            <xs:element name="lyDo">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:maxLength value="200" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="soTien">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:decimal">
+                                        <xs:minInclusive value="1000" />
+                                        <xs:maxInclusive value="10000000" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="ngayXuPhat" type="limitedDate" />
+                            <xs:element name="ngayDongPhat" type="limitedDate" />
+                            <xs:element name="daDong" type="xs:boolean" default="false"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    
+
+        <xs:key name="primaryKeyNhaXuatBan">
+            <xs:selector xpath="nhaXuatBan" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeyTacGia">
+            <xs:selector xpath="tacGia" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeyTheLoai">
+            <xs:selector xpath="theLoai" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeySach">
+            <xs:selector xpath="sach" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeyBanSaoSach">
+            <xs:selector xpath="banSaoSach" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeyNguoiDung">
+            <xs:selector xpath="nguoiDung" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeyPhieuMuon">
+            <xs:selector xpath="phieuMuon" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="primaryKeyPhieuPhat">
+            <xs:selector xpath="phieuPhat" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:keyref name="foreignSach_Nxb" refer="primaryKeyNhaXuatBan">
+            <xs:selector xpath="sach" />
+            <xs:field xpath="nhaXuatBanRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignTacGia_SachTacGia" refer="primaryKeyTacGia">
+            <xs:selector xpath="sachTacGia" />
+            <xs:field xpath="tacGiaRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignSach_SachTacGia" refer="primaryKeySach">
+            <xs:selector xpath="sachTacGia" />
+            <xs:field xpath="sachRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignTheLoai_Sach" refer="primaryKeyTheLoai">
+            <xs:selector xpath="sach" />
+            <xs:field xpath="theLoaiRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignSach_BanSaoSach" refer="primaryKeySach">
+            <xs:selector xpath="banSaoSach" />
+            <xs:field xpath="sachRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignNguoiDung_Sach" refer="primaryKeyNguoiDung">
+            <xs:selector xpath="sach" />
+            <xs:field xpath="nguoidungRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignNguoiDung_PhieuMuon" refer="primaryKeyNguoiDung">
+            <xs:selector xpath="phieuMuon" />
+            <xs:field xpath="nguoiDungRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignBanSaoSach_PhieuMuon" refer="primaryKeyBanSaoSach">
+            <xs:selector xpath="phieuMuon" />
+            <xs:field xpath="banSaoSachRef" />
+        </xs:keyref>
+
+        <xs:keyref name="foreignPhieuMuon_PhieuPhat" refer="primaryKeyPhieuMuon">
+            <xs:selector xpath="phieuPhat" />
+            <xs:field xpath="phieuMuonRef" />
+        </xs:keyref>
+
+
+
+        
+
+    </xs:element>
+
+</xs:schema>
