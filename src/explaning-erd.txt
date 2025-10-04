@@ -1,0 +1,70 @@
+1. Sach — TheLoai
+
+FK: Sach.theloai_id → TheLoai.theloai_id
+
+Kiểu: 1 (TheLoai) → N (Sach)
+
+Ý nghĩa: một thể loại chứa nhiều sách; một sách thuộc duy nhất một thể loại.
+
+
+2. Sach — NhaXuatBan
+
+FK: Sach.nxb_id → NhaXuatBan.nxb_id
+
+Kiểu: 1 (NhaXuatBan) → N (Sach)
+
+Ý nghĩa: một nhà xuất bản xuất nhiều sách; mỗi sách có 1 nhà xuất bản.
+
+
+3. Sach — BanSaoSach
+
+FK: BanSaoSach.sach_id → Sach.sach_id
+
+Kiểu: 1 (Sach) → N (BanSaoSach)
+
+Ý nghĩa: một cuốn sách (tiêu đề) có thể có nhiều bản vật lý; mỗi bản thuộc 1 cuốn.
+
+
+4. BanSaoSach — PhieuMuon
+
+FK: PhieuMuon.bansao_id → BanSaoSach.bansao_id
+
+Kiểu: 1 (BanSaoSach) → N (PhieuMuon)
+
+Ý nghĩa: một bản sách có thể được mượn nhiều lần qua các phiếu mượn; một phiếu mượn chỉ liên quan 1 bản. 
+
+
+5. PhieuMuon — ThanhVien
+
+FK: PhieuMuon.thanhvien_id → ThanhVien.thanhvien_id
+
+Kiểu: 1 (ThanhVien) → N (PhieuMuon)
+
+Ý nghĩa: một thành viên có thể tạo nhiều phiếu mượn; mỗi phiếu thuộc một thành viên.
+
+
+6. PhieuMuon — NhanVien
+
+FK: PhieuMuon.nhanvien_id → NhanVien.nhanvien_id
+
+Kiểu: 1 (NhanVien) → N (PhieuMuon)
+
+Ý nghĩa: nhân viên (thủ thư) xử lý/ghi nhận phiếu mượn; một nhân viên có thể xử lý nhiều phiếu.
+
+
+7. PhieuPhat — PhieuMuon
+
+FK: PhieuPhat.phieumuon_id → PhieuMuon.phieumuon_id
+
+Kiểu: 1 (PhieuMuon) → 0..N (PhieuPhat)
+
+Ý nghĩa: mỗi phiếu phạt gắn với một phiếu mượn. Một phiếu mượn có thể không có phạt (0) hoặc nhiều bản ghi phạt.
+
+
+8. Sach — TacGia (quan hệ nhiều-nhiều) qua Sach_TacGia
+
+Bảng nối: Sach_TacGia có sach_id và tacgia_id
+
+Kiểu: N (Sach) ↔ N (TacGia)
+
+Ý nghĩa: một sách có thể có nhiều tác giả; một tác giả viết nhiều sách.
