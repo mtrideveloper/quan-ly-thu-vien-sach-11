@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ThuVien SYSTEM "thuvien.dtd">
+
+<ThuVien>
+
+  <!-- Tác giả -->
+  <TacGia tacgia_id="TG1">
+    <HoTen>Nguyễn Nhật Ánh</HoTen>
+    <NgaySinh>1955-05-07</NgaySinh>
+    <TieuSu>Tác giả nổi tiếng với nhiều sách thiếu nhi.</TieuSu>
+  </TacGia>
+  <TacGia tacgia_id="TG2">
+    <HoTen>J. K. Rowling</HoTen>
+    <NgaySinh>1965-07-31</NgaySinh>
+    <TieuSu>Tác giả bộ truyện Harry Potter.</TieuSu>
+  </TacGia>
+
+  <!-- Nhà xuất bản -->
+  <NhaXuatBan nxb_id="NXB1">
+    <Ten>NXB Trẻ</Ten>
+    <DiaChiNXB>TP. Hồ Chí Minh</DiaChiNXB>
+    <SoDienThoaiNXB>0123456789</SoDienThoaiNXB>
+  </NhaXuatBan>
+  <NhaXuatBan nxb_id="NXB2">
+    <Ten>Bloomsbury</Ten>
+    <DiaChiNXB>London, UK</DiaChiNXB>
+    <SoDienThoaiNXB>+44-12345678</SoDienThoaiNXB>
+  </NhaXuatBan>
+
+  <!-- Thể loại -->
+  <TheLoai theloai_id="TL1">
+    <TenTheLoai>Thiếu nhi</TenTheLoai>
+  </TheLoai>
+  <TheLoai theloai_id="TL2">
+    <TenTheLoai>Fantasy</TenTheLoai>
+  </TheLoai>
+
+  <!-- Sách -->
+  <Sach sach_id="S1" nxb_ref="NXB1" theloai_ref="TL1">
+    <TieuDe>Kính vạn hoa</TieuDe>
+    <ISBN>ISBN001</ISBN>
+    <NamXuatBan>1995</NamXuatBan>
+    <TomTat>Tập truyện thiếu nhi nổi tiếng.</TomTat>
+    <SoLuong>3</SoLuong>
+  </Sach>
+  <Sach sach_id="S2" nxb_ref="NXB2" theloai_ref="TL2">
+    <TieuDe>Harry Potter and the Philosopher's Stone</TieuDe>
+    <ISBN>ISBN002</ISBN>
+    <NamXuatBan>1997</NamXuatBan>
+    <TomTat>Tập 1 trong series Harry Potter.</TomTat>
+    <SoLuong>5</SoLuong>
+  </Sach>
+
+  <!-- Quan hệ Sách - Tác giả -->
+  <Sach_TacGia sach_ref="S1" tacgia_refs="TG1"/>
+  <Sach_TacGia sach_ref="S2" tacgia_refs="TG2"/>
+
+  <!-- Bản sao sách -->
+  <BanSaoSach bansao_id="BS1" sach_ref="S1" trangthai="con_sach">
+    <MaVach>MV001</MaVach>
+  </BanSaoSach>
+  <BanSaoSach bansao_id="BS2" sach_ref="S2" trangthai="dang_muon">
+    <MaVach>MV002</MaVach>
+  </BanSaoSach>
+
+  <!-- Thành viên -->
+  <ThanhVien thanhvien_id="TV1" trangthai="hoat_dong">
+    <HoTen>Nguyễn Văn A</HoTen>
+    <Email>vana@example.com</Email>
+    <SoDienThoaiTV>0901234567</SoDienThoaiTV>
+    <DiaChiTV>Hà Nội</DiaChiTV>
+    <NgayThamGia>2023-01-15</NgayThamGia>
+  </ThanhVien>
+
+  <!-- Nhân viên -->
+  <NhanVien nhanvien_id="NV1">
+    <HoTen>Trần Thị B</HoTen>
+    <Email>tranb@example.com</Email>
+    <SoDienThoaiNV>0987654321</SoDienThoaiNV>
+    <VaiTro>Thủ thư</VaiTro>
+  </NhanVien>
+
+  <!-- Phiếu mượn -->
+  <PhieuMuon phieumuon_id="PM1" bansao_ref="BS2" nhanvien_ref="TV1" thanhvien_ref="NV1">
+    <NgayMuon>2024-09-01</NgayMuon>
+    <HanTra>2024-09-15</HanTra>
+    <NgayTra></NgayTra>
+  </PhieuMuon>
+
+  <!-- Phiếu phạt -->
+  <PhieuPhat phieuphat_id="PP1" da_tra="false" phieumuon_ref="PM1">
+    <SoTien>50000</SoTien>
+    <NgayXuPhat>2024-09-20</NgayXuPhat>
+    <NgayDongPhat></NgayDongPhat>
+  </PhieuPhat>
+
+</ThuVien>

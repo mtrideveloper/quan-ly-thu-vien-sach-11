@@ -8,11 +8,11 @@
 <!ELEMENT TieuSu (#PCDATA)>
 
 <!-- Nhà xuất bản -->
-<!ELEMENT NhaXuatBan (Ten, DiaChi, SoDienThoai)>
+<!ELEMENT NhaXuatBan (Ten, DiaChiNXB, SoDienThoaiNXB)>
 <!ATTLIST NhaXuatBan nxb_id ID #REQUIRED>
 <!ELEMENT Ten (#PCDATA)>
-<!ELEMENT DiaChi (#PCDATA)>
-<!ELEMENT SoDienThoai (#PCDATA)>
+<!ELEMENT DiaChiNXB (#PCDATA)>
+<!ELEMENT SoDienThoaiNXB (#PCDATA)>
 
 <!-- Thể loại -->
 <!ELEMENT TheLoai (TenTheLoai)>
@@ -20,54 +20,65 @@
 <!ELEMENT TenTheLoai (#PCDATA)>
 
 <!-- Sách -->
-<!ELEMENT Sach (TieuDe, NxbRef, TheLoaiRef, ISBN, NamXuatBan, TomTat, SoLuong)>
-<!ATTLIST Sach sach_id ID #REQUIRED>
+<!ELEMENT Sach (TieuDe, ISBN, NamXuatBan, TomTat, SoLuong)>
+<!ATTLIST Sach 
+          sach_id ID #REQUIRED
+          nxb_ref IDREF #REQUIRED
+          theloai_ref IDREF #REQUIRED>
 <!ELEMENT TieuDe (#PCDATA)>
-<!ELEMENT NxbRef (#PCDATA)>          <!-- tham chiếu đến nxb_id -->
-<!ELEMENT TheLoaiRef (#PCDATA)>      <!-- tham chiếu đến theloai_id -->
 <!ELEMENT ISBN (#PCDATA)>
 <!ELEMENT NamXuatBan (#PCDATA)>
 <!ELEMENT TomTat (#PCDATA)>
 <!ELEMENT SoLuong (#PCDATA)>
 
 <!-- Quan hệ sách - tác giả (nhiều - nhiều) -->
-<!ELEMENT Sach_TacGia (SachRef, TacGiaRef)>
-<!ELEMENT SachRef (#PCDATA)>        <!-- tham chiếu sach_id -->
-<!ELEMENT TacGiaRef (#PCDATA)>      <!-- tham chiếu tacgia_id -->
+<!ELEMENT Sach_TacGia EMPTY> <!-- không có element con, không có text (#PCDATA), chỉ được phép có thuộc tính. -->
+<!ATTLIST Sach_TacGia 
+          sach_ref IDREF #REQUIRED
+          tacgia_refs IDREFS #REQUIRED>
 
 <!-- Bản sao sách -->
-<!ELEMENT BanSaoSach (SachRef, MaVach, TrangThai?)>
-<!ATTLIST BanSaoSach bansao_id ID #REQUIRED>
+<!ELEMENT BanSaoSach (MaVach)>
+<!ATTLIST BanSaoSach 
+          bansao_id ID #REQUIRED
+          sach_ref IDREF #REQUIRED
+          trangthai (con_sach|dang_muon|mat|sua_chua) "con_sach">
 <!ELEMENT MaVach (#PCDATA)>
-<!ELEMENT TrangThai (#PCDATA)>
+
 
 <!-- Thành viên -->
-<!ELEMENT ThanhVien (HoTen, Email, SoDienThoai, DiaChi?, NgayThamGia, TrangThai)>
-<!ATTLIST ThanhVien thanhvien_id ID #REQUIRED>
+<!ELEMENT ThanhVien (HoTen, Email, SoDienThoaiTV, DiaChiTV?, NgayThamGia)>
+<!ATTLIST ThanhVien 
+          thanhvien_id ID #REQUIRED
+          trangthai (hoat_dong|tam_ngung|het_han) "hoat_dong">
 <!ELEMENT Email (#PCDATA)>
+<!ELEMENT SoDienThoaiTV (#PCDATA)>
+<!ELEMENT DiaChiTV (#PCDATA)>
 <!ELEMENT NgayThamGia (#PCDATA)>
-<!ELEMENT TrangThai (#PCDATA)>
 
 <!-- Nhân viên -->
-<!ELEMENT NhanVien (HoTen, Email, SoDienThoai, VaiTro)>
+<!ELEMENT NhanVien (HoTen, Email, SoDienThoaiNV, VaiTro)>
 <!ATTLIST NhanVien nhanvien_id ID #REQUIRED>
+<!ELEMENT SoDienThoaiNV (#PCDATA)>
 <!ELEMENT VaiTro (#PCDATA)>
 
 <!-- Phiếu mượn -->
-<!ELEMENT PhieuMuon (BanSaoRef, ThanhVienRef, NhanVienRef, NgayMuon, HanTra, NgayTra)>
-<!ATTLIST PhieuMuon phieumuon_id ID #REQUIRED>
-<!ELEMENT BanSaoRef (#PCDATA)>
-<!ELEMENT ThanhVienRef (#PCDATA)>
-<!ELEMENT NhanVienRef (#PCDATA)>
+<!ELEMENT PhieuMuon (NgayMuon, HanTra, NgayTra)>
+<!ATTLIST PhieuMuon 
+          phieumuon_id ID #REQUIRED
+          bansao_ref IDREF #REQUIRED
+          thanhvien_ref IDREF #REQUIRED
+          nhanvien_ref IDREF #REQUIRED>
 <!ELEMENT NgayMuon (#PCDATA)>
 <!ELEMENT HanTra (#PCDATA)>
 <!ELEMENT NgayTra (#PCDATA)>
 
 <!-- Phiếu phạt -->
-<!ELEMENT PhieuPhat (PhieuMuonRef, SoTien, DaTra?, NgayXuPhat, NgayDongPhat)>
-<!ATTLIST PhieuPhat phieuphat_id ID #REQUIRED>
-<!ELEMENT PhieuMuonRef (#PCDATA)>
+<!ELEMENT PhieuPhat (SoTien, NgayXuPhat, NgayDongPhat)>
+<!ATTLIST PhieuPhat 
+          phieuphat_id ID #REQUIRED
+          phieumuon_ref IDREF #REQUIRED
+          da_tra (true|false) "false">
 <!ELEMENT SoTien (#PCDATA)>
-<!ELEMENT DaTra (#PCDATA)>
 <!ELEMENT NgayXuPhat (#PCDATA)>
 <!ELEMENT NgayDongPhat (#PCDATA)>
