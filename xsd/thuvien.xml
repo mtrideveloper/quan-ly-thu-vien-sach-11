@@ -1,0 +1,2472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="thuvien.xsd">
+
+    <!-- NHÀ XUẤT BẢN -->
+    <nhaXuatBans>
+        <nhaXuatBan id="NXB001">
+            <tenNxb>Nhà xuất bản Văn học</tenNxb>
+            <diaChi>18 Nguyễn Trường Tộ, Ba Đình, Hà Nội</diaChi>
+            <sdt>2438222368</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB002">
+            <tenNxb>Nhà xuất bản Giáo dục Việt Nam</tenNxb>
+            <diaChi>81 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội</diaChi>
+            <sdt>2438220801</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB003">
+            <tenNxb>Nhà xuất bản Kim Đồng</tenNxb>
+            <diaChi>55 Quang Trung, Hai Bà Trưng, Hà Nội</diaChi>
+            <sdt>2439434730</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB004">
+            <tenNxb>Nhà xuất bản Trẻ</tenNxb>
+            <diaChi>161B Lý Chính Thắng, Quận 3, TP.HCM</diaChi>
+            <sdt>2839316211</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB005">
+            <tenNxb>Nhà xuất bản Tổng hợp TPHCM</tenNxb>
+            <diaChi>62 Nguyễn Thị Minh Khai, Quận 1, TP.HCM</diaChi>
+            <sdt>2838225340</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB006">
+            <tenNxb>Nhà xuất bản Lao Động</tenNxb>
+            <diaChi>175 Giảng Võ, Đống Đa, Hà Nội</diaChi>
+            <sdt>2438514496</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB007">
+            <tenNxb>Nhà xuất bản Hội Nhà văn</tenNxb>
+            <diaChi>65 Nguyễn Du, Hai Bà Trưng, Hà Nội</diaChi>
+            <sdt>2439434470</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB008">
+            <tenNxb>Nhà xuất bản Phụ nữ</tenNxb>
+            <diaChi>39 Hàng Chuối, Hai Bà Trưng, Hà Nội</diaChi>
+            <sdt>2439710717</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB009">
+            <tenNxb>Nhà xuất bản Hà Nội</tenNxb>
+            <diaChi>4 Tống Duy Tân, Hoàn Kiếm, Hà Nội</diaChi>
+            <sdt>2439289143</sdt>
+        </nhaXuatBan>
+
+        <nhaXuatBan id="NXB010">
+            <tenNxb>Nhà xuất bản Tri Thức</tenNxb>
+            <diaChi>Tầng 7, Lô D20, ngõ 19 Duy Tân, Cầu Giấy, Hà Nội</diaChi>
+            <sdt>2437562801</sdt>
+        </nhaXuatBan>
+    </nhaXuatBans>
+
+    <!-- TÁC GIẢ -->
+    <tacGias>
+        <tacGia id="TG001">
+            <tenTacGia>Nguyễn Du</tenTacGia>
+            <ngaySinh>1766-01-03</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG002">
+            <tenTacGia>Nam Cao</tenTacGia>
+            <ngaySinh>1915-10-29</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG003">
+            <tenTacGia>Ngô Tất Tố</tenTacGia>
+            <ngaySinh>1894-10-25</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG004">
+            <tenTacGia>Vũ Trọng Phụng</tenTacGia>
+            <ngaySinh>1912-10-20</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG005">
+            <tenTacGia>Nguyễn Nhật Ánh</tenTacGia>
+            <ngaySinh>1955-05-07</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG006">
+            <tenTacGia>Tô Hoài</tenTacGia>
+            <ngaySinh>1920-09-27</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG007">
+            <tenTacGia>Nguyễn Ngọc Tư</tenTacGia>
+            <ngaySinh>1976-08-02</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG008">
+            <tenTacGia>Nguyễn Huy Thiệp</tenTacGia>
+            <ngaySinh>1950-04-29</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG009">
+            <tenTacGia>Nguyễn Bình</tenTacGia>
+            <ngaySinh>1918-06-15</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG010">
+            <tenTacGia>Xuân Quỳnh</tenTacGia>
+            <ngaySinh>1942-10-18</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG011">
+            <tenTacGia>Tô Hoài</tenTacGia>
+            <ngaySinh>1920-09-27</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG012">
+            <tenTacGia>Nguyễn Tuân</tenTacGia>
+            <ngaySinh>1910-07-15</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG013">
+            <tenTacGia>Hồ Biểu Chánh</tenTacGia>
+            <ngaySinh>1885-02-18</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG014">
+            <tenTacGia>Thạch Lam</tenTacGia>
+            <ngaySinh>1910-07-12</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG015">
+            <tenTacGia>Nguyên Hồng</tenTacGia>
+            <ngaySinh>1918-03-27</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG016">
+            <tenTacGia>Dương Thu Hương</tenTacGia>
+            <ngaySinh>1947-04-09</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG017">
+            <tenTacGia>Trần Đăng Khoa</tenTacGia>
+            <ngaySinh>1958-03-05</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG018">
+            <tenTacGia>Trang Hạ</tenTacGia>
+            <ngaySinh>1985-06-15</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG019">
+            <tenTacGia>Anh Khang</tenTacGia>
+            <ngaySinh>1982-11-22</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG020">
+            <tenTacGia>Nguyễn Phong Việt</tenTacGia>
+            <ngaySinh>1978-04-10</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG021">
+            <tenTacGia>Tử Kim Liên</tenTacGia>
+            <ngaySinh>1925-05-20</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG022">
+            <tenTacGia>Sơn Nam</tenTacGia>
+            <ngaySinh>1926-07-30</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG023">
+            <tenTacGia>Bảo Ninh</tenTacGia>
+            <ngaySinh>1952-10-18</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG024">
+            <tenTacGia>Nguyễn Bắc Sơn</tenTacGia>
+            <ngaySinh>1980-09-12</ngaySinh>
+        </tacGia>
+
+        <tacGia id="TG025">
+            <tenTacGia>Nguyễn Ngọc Thạch</tenTacGia>
+            <ngaySinh>1990-02-14</ngaySinh>
+        </tacGia>
+
+    </tacGias>
+
+    <!-- THỂ LOẠI -->
+    <theLoais>
+        <theLoai id="TL001">
+            <tenTheLoai>Tiểu thuyết</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL002">
+            <tenTheLoai>Truyện ngắn</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL003">
+            <tenTheLoai>Thơ ca</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL004">
+            <tenTheLoai>Văn học thiếu nhi</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL005">
+            <tenTheLoai>Văn học cổ điển</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL006">
+            <tenTheLoai>Văn học hiện đại</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL007">
+            <tenTheLoai>Ký</tenTheLoai>
+        </theLoai>
+
+        <theLoai id="TL008">
+            <tenTheLoai>Triết lý</tenTheLoai>
+        </theLoai>
+
+    </theLoais>
+
+    <!-- SÁCH (50 cuốn) -->
+    <sachs>
+        <sach id="S001">
+            <tieuDe>Truyện Kiều</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG001</tacGiaRef>
+            <theLoaiRef>TL005</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>15</soLuong>
+            <tomTat>Tác phẩm trường ca bất hủ của Nguyễn Du kể về cuộc đời của Thuý Kiều, một người
+                con
+                gái tài sắc vẹn toàn nhưng phải trải qua nhiều nỗi buồn khổ vì số phận và hoàn cảnh
+                xã
+                hội.</tomTat>
+        </sach>
+
+        <sach id="S002">
+            <tieuDe>Chí Phèo</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG002</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>20</soLuong>
+            <tomTat>Truyện ngắn nổi tiếng của Nam Cao về cuộc đời Chí Phèo, một con người bị xã hội
+                đẩy
+                đến con đường sa đọa, thể hiện sự phê phán sâu sắc về xã hội nửa phong kiến nửa thực
+                dân.</tomTat>
+        </sach>
+
+        <sach id="S003">
+            <tieuDe>Tắt Đèn</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG003</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2018</namXuatBan>
+            <soLuong>18</soLuong>
+            <tomTat>Tiểu thuyết kinh điển của Ngô Tất Tố phản ánh cuộc sống cùng cực của nông dân
+                Việt
+                Nam dưới ách thống trị của thực dân Pháp qua gia đình chị Dậu và Dậu.</tomTat>
+        </sach>
+
+        <sach id="S004">
+            <tieuDe>Số Đỏ</tieuDe>
+            <nhaXuatBanRef>NXB007</nhaXuatBanRef>
+            <tacGiaRef>TG004</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>12</soLuong>
+            <tomTat>Tiểu thuyết châm biếm của Vũ Trọng Phụng kể về cuộc đời Xuân Tóc Đỏ, một tên vô
+                lại
+                may mắn được thăng tiến nhờ khôn khéo và lịch lãm, phê phán xã hội cũ.</tomTat>
+        </sach>
+
+        <sach id="S005">
+            <tieuDe>Mắt Biếc</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>25</soLuong>
+            <tomTat>Câu chuyện tình đầu trong sáng và day dứt của Ngạn với cô bé Hà Lan mắt biếc,
+                một
+                tác phẩm đầy cảm xúc về tuổi thơ và tình yêu của Nguyễn Nhật Ánh.</tomTat>
+        </sach>
+
+        <sach id="S006">
+            <tieuDe>Tôi Thấy Hoa Vàng Trên Cỏ Xanh</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>30</soLuong>
+            <tomTat>Truyện kể về tuổi thơ nghèo khó nhưng đẹp đẽ của hai anh em Thiều và Tường ở
+                miền
+                quê, với những kỷ niệm về tình anh em, tình bạn và cảm xúc đầu đời.</tomTat>
+        </sach>
+
+        <sach id="S007">
+            <tieuDe>Dế Mèn Phiêu Lưu Ký</tieuDe>
+            <nhaXuatBanRef>NXB003</nhaXuatBanRef>
+            <tacGiaRef>TG006</tacGiaRef>
+            <theLoaiRef>TL004</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>22</soLuong>
+            <tomTat>Truyện thiếu nhi kinh điển về chú dế Mèn qua hành trình phiêu lưu đầy ý nghĩa,
+                khám
+                phá thế giới và trưởng thành qua những trải nghiệm.</tomTat>
+        </sach>
+
+        <sach id="S008">
+            <tieuDe>Vợ Nhặt</tieuDe>
+            <nhaXuatBanRef>NXB003</nhaXuatBanRef>
+            <tacGiaRef>TG003</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>16</soLuong>
+            <tomTat>Truyện ngắn cảm động về tình người trong hoạn nạn, kể về anh Tràng nhặt được
+                người
+                vợ trong nạn đói và tình cảm chân thành giữa hai người.</tomTat>
+        </sach>
+
+        <sach id="S009">
+            <tieuDe>Lão Hạc</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG002</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2018</namXuatBan>
+            <soLuong>14</soLuong>
+            <tomTat>Truyện ngắn bi thảm về cuộc đời cô đơn của lão Hạc và con chó Cưng, phản ánh sự
+                khắc
+                nghiệt của xã hội nửa phong kiến nửa thực dân với người nghèo.</tomTat>
+        </sach>
+
+        <sach id="S010">
+            <tieuDe>Sống Mòn</tieuDe>
+            <nhaXuatBanRef>NXB007</nhaXuatBanRef>
+            <tacGiaRef>TG002</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>10</soLuong>
+            <tomTat>Tiểu thuyết về cuộc sống của Hà - một cô giáo nghèo phải chấp nhận làm vợ lẽ
+                người
+                giàu vì hoàn cảnh, thể hiện số phận đau thương của phụ nữ thời xưa.</tomTat>
+        </sach>
+
+        <sach id="S011">
+            <tieuDe>Cô Gái Đến Từ Hôm Qua</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>28</soLuong>
+            <tomTat>Câu chuyện kỳ bí và lãng mạn về cô gái đến từ quá khứ, mang đến những suy ngẫm
+                về
+                thời gian, số phận và tình yêu trong lối kể chuyện đầy cảm xúc.</tomTat>
+        </sach>
+
+        <sach id="S012">
+            <tieuDe>Cho Tôi Xin Một Vé Đi Tuổi Thơ</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>24</soLuong>
+            <tomTat>Tập truyện ngắn về tuổi thơ miền Trung với những kỷ niệm đẹp đẽ, hồn nhiên và
+                đầy
+                màu sắc của thời niên thiếu qua giọng văn trong trẻo.</tomTat>
+        </sach>
+
+        <sach id="S013">
+            <tieuDe>Cánh Đồng Bất Tận</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG007</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>11</soLuong>
+            <tomTat>Truyện ngắn về miền Tây Nam Bộ với những con người bình dị sống giữa thiên nhiên
+                hoang dã, thể hiện khát vọng tự do và cuộc sống gắn bó với đất đai.</tomTat>
+        </sach>
+
+        <sach id="S014">
+            <tieuDe>Tướng Về Hưu</tieuDe>
+            <nhaXuatBanRef>NXB007</nhaXuatBanRef>
+            <tacGiaRef>TG008</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2018</namXuatBan>
+            <soLuong>9</soLuong>
+            <tomTat>Truyện ngắn về một tướng quân về hưu và những suy tư về cuộc đời, chiến tranh và
+                hòa
+                bình, với góc nhìn độc đáo về con người và xã hội.</tomTat>
+        </sach>
+
+        <sach id="S015">
+            <tieuDe>Vang Bóng Một Thời</tieuDe>
+            <nhaXuatBanRef>NXB007</nhaXuatBanRef>
+            <tacGiaRef>TG008</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>13</soLuong>
+            <tomTat>Tập truyện ngắn về những con người từng vang bóng một thời giờ phải đối mặt với
+                hiện
+                tại, với nét viết tinh tế về tâm lý nhân vật.</tomTat>
+        </sach>
+
+        <sach id="S016">
+            <tieuDe>Thơ Xuân Quỳnh</tieuDe>
+            <nhaXuatBanRef>NXB008</nhaXuatBanRef>
+            <tacGiaRef>TG010</tacGiaRef>
+            <theLoaiRef>TL003</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>17</soLuong>
+            <tomTat>Tuyển tập thơ của Xuân Quỳnh với những bài thơ tình nổi tiếng như Sóng, Thuyền
+                và
+                Biển, thể hiện cảm xúc sâu sắc về tình yêu và cuộc sống.</tomTat>
+        </sach>
+
+        <sach id="S017">
+            <tieuDe>Đò Lèn</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG012</tacGiaRef>
+            <theLoaiRef>TL007</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>8</soLuong>
+            <tomTat>Truyện ký của Nguyễn Tuân về chuyến đi trên con đò lèn, với lối văn đặc sắc miêu
+                tả
+                phong cảnh và con người miền sông nước Bắc Bộ.</tomTat>
+        </sach>
+
+        <sach id="S018">
+            <tieuDe>Vang Bóng Phương Nam</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG012</tacGiaRef>
+            <theLoaiRef>TL007</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>10</soLuong>
+            <tomTat>Tập truyện ký viết về những chuyến đi miền Nam, ghi lại phong cảnh, con người và
+                văn
+                hóa của vùng đất phương Nam đầy màu sắc.</tomTat>
+        </sach>
+
+        <sach id="S019">
+            <tieuDe>Buổi Chiều Cuối Cùng</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG013</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2018</namXuatBan>
+            <soLuong>7</soLuong>
+            <tomTat>Tiểu thuyết về tình yêu và số phận của con người trong xã hội cũ, với những nhân
+                vật
+                bi kịch bị cuốn vào vòng xoáy của đời sống.</tomTat>
+        </sach>
+
+        <sach id="S020">
+            <tieuDe>Hà Nội Băm Sáu Phố Phường</tieuDe>
+            <nhaXuatBanRef>NXB009</nhaXuatBanRef>
+            <tacGiaRef>TG014</tacGiaRef>
+            <theLoaiRef>TL007</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>12</soLuong>
+            <tomTat>Tập truyện ký về Hà Nội xưa với 36 phố phường, ghi lại những nét văn hóa đặc
+                trưng
+                và cuộc sống thường nhật của người dân thủ đô.</tomTat>
+        </sach>
+
+        <sach id="S021">
+            <tieuDe>Người Mẹ Cầm Súng</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG015</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>15</soLuong>
+            <tomTat>Tiểu thuyết về người phụ nữ kiên cường tham gia kháng chiến, thể hiện tinh thần
+                yêu
+                nước và ý chí bất khuất của phụ nữ Việt Nam.</tomTat>
+        </sach>
+
+        <sach id="S022">
+            <tieuDe>Những Thiên Đường Mù</tieuDe>
+            <nhaXuatBanRef>NXB005</nhaXuatBanRef>
+            <tacGiaRef>TG016</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>9</soLuong>
+            <tomTat>Tiểu thuyết về những mâu thuẫn trong xã hội thời kỳ đổi mới, với góc nhìn sâu
+                sắc về
+                cuộc sống và con người qua lăng kính nữ giới.</tomTat>
+        </sach>
+
+        <sach id="S023">
+            <tieuDe>Thơ Trần Đăng Khoa</tieuDe>
+            <nhaXuatBanRef>NXB008</nhaXuatBanRef>
+            <tacGiaRef>TG017</tacGiaRef>
+            <theLoaiRef>TL003</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>19</soLuong>
+            <tomTat>Tuyển tập thơ của Trần Đăng Khoa với những bài thơ về thiên nhiên, quê hương và
+                cuộc
+                sống, mang đậm chất trữ tình và sâu lắng.</tomTat>
+        </sach>
+
+        <sach id="S024">
+            <tieuDe>Mùa Hè Không Tên</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG018</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>21</soLuong>
+            <tomTat>Tiểu thuyết về tuổi trẻ và những cảm xúc rung động của tuổi mới lớn, với những
+                câu
+                chuyện về tình yêu, tình bạn và khát vọng sống.</tomTat>
+        </sach>
+
+        <sach id="S025">
+            <tieuDe>Chuyện Cũ Trong Phủ</tieuDe>
+            <nhaXuatBanRef>NXB005</nhaXuatBanRef>
+            <tacGiaRef>TG018</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>14</soLuong>
+            <tomTat>Tập truyện ngắn về những câu chuyện xưa cũ, với lối kể chuyện dân gian đậm chất
+                truyền thống và ý nghĩa nhân văn sâu sắc.</tomTat>
+        </sach>
+
+        <sach id="S026">
+            <tieuDe>Người Lạ Ơi</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG019</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>23</soLuong>
+            <tomTat>Tiểu thuyết về những mối quan hệ con người trong xã hội hiện đại, với những suy
+                ngẫm
+                về tình cảm và sự cô đơn giữa đám đông.</tomTat>
+        </sach>
+
+        <sach id="S027">
+            <tieuDe>Tôi Là Bêtô</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL004</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>26</soLuong>
+            <tomTat>Truyện thiếu nhi về chú bê con Bêtô với những câu chuyện vui nhộn và ý nghĩa về
+                tình
+                bạn, lòng dũng cảm và sự trưởng thành.</tomTat>
+        </sach>
+
+        <sach id="S028">
+            <tieuDe>Đắc Nhân Tâm</tieuDe>
+            <nhaXuatBanRef>NXB010</nhaXuatBanRef>
+            <tacGiaRef>TG020</tacGiaRef>
+            <theLoaiRef>TL008</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>35</soLuong>
+            <tomTat>Sách về nghệ thuật giao tiếp và ứng xử trong cuộc sống, giúp con người hiểu và
+                làm
+                chủ bản thân, xây dựng các mối quan hệ tốt đẹp.</tomTat>
+        </sach>
+
+        <sach id="S029">
+            <tieuDe>Tuổi Trẻ Đáng Giá Bao Nhiêu</tieuDe>
+            <nhaXuatBanRef>NXB006</nhaXuatBanRef>
+            <tacGiaRef>TG020</tacGiaRef>
+            <theLoaiRef>TL008</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>32</soLuong>
+            <tomTat>Cuốn sách dành cho giới trẻ về cách sống, làm việc và phát triển bản thân, với
+                những
+                lời khuyên thiết thực cho cuộc sống.</tomTat>
+        </sach>
+
+        <sach id="S030">
+            <tieuDe>Hạt Giống Tâm Hồn</tieuDe>
+            <nhaXuatBanRef>NXB010</nhaXuatBanRef>
+            <tacGiaRef>TG020</tacGiaRef>
+            <theLoaiRef>TL008</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>29</soLuong>
+            <tomTat>Tuyển tập các câu chuyện ngắn mang ý nghĩa triết lý sâu sắc về cuộc sống, giúp
+                người
+                đọc suy ngẫm và rút ra bài học cho chính mình.</tomTat>
+        </sach>
+
+        <sach id="S031">
+            <tieuDe>Dế Mèn Phiêu Lưu Ký 2</tieuDe>
+            <nhaXuatBanRef>NXB003</nhaXuatBanRef>
+            <tacGiaRef>TG006</tacGiaRef>
+            <theLoaiRef>TL004</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>18</soLuong>
+            <tomTat>Phần tiếp theo của câu chuyện về chú dế Mèn với những cuộc phiêu lưu mới thú vị,
+                tiếp tục truyền tải thông điệp về tình bạn và lòng dũng cảm.</tomTat>
+        </sach>
+
+        <sach id="S032">
+            <tieuDe>Rừng Xà Nu</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG021</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>11</soLuong>
+            <tomTat>Tiểu thuyết về cuộc sống của người dân tộc thiểu số ở Tây Nguyên, với những câu
+                chuyện về tình yêu, sinh tồn và giữ gìn bản sắc văn hóa.</tomTat>
+        </sach>
+
+        <sach id="S033">
+            <tieuDe>Đất Phương Nam</tieuDe>
+            <nhaXuatBanRef>NXB005</nhaXuatBanRef>
+            <tacGiaRef>TG022</tacGiaRef>
+            <theLoaiRef>TL007</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>13</soLuong>
+            <tomTat>Tập truyện ký về vùng đất phương Nam với phong tục tập quán, con người và văn
+                hóa
+                đặc sắc, được kể bằng giọng văn giản dị, gần gũi.</tomTat>
+        </sach>
+
+        <sach id="S034">
+            <tieuDe>Nỗi Buồn Chiến Tranh</tieuDe>
+            <nhaXuatBanRef>NXB007</nhaXuatBanRef>
+            <tacGiaRef>TG023</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2018</namXuatBan>
+            <soLuong>8</soLuong>
+            <tomTat>Tiểu thuyết về chiến tranh với góc nhìn nhân văn sâu sắc, thể hiện nỗi đau và sự
+                mất
+                mát mà chiến tranh để lại cho con người.</tomTat>
+        </sach>
+
+        <sach id="S035">
+            <tieuDe>Làm Bạn Với Bầu Trời</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>27</soLuong>
+            <tomTat>Câu chuyện về tình bạn trong sáng và những ước mơ bay cao của tuổi học trò, với
+                thông điệp về sự kiên trì và lạc quan trong cuộc sống.</tomTat>
+        </sach>
+
+        <sach id="S036">
+            <tieuDe>Bốn Mùa Yêu Thương</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG024</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>16</soLuong>
+            <tomTat>Tập truyện ngắn về tình cảm gia đình qua bốn mùa trong năm, với những câu chuyện
+                ấm
+                áp về tình yêu thương và sự hy sinh của cha mẹ.</tomTat>
+        </sach>
+
+        <sach id="S037">
+            <tieuDe>Đường Về Có Mưa</tieuDe>
+            <nhaXuatBanRef>NXB005</nhaXuatBanRef>
+            <tacGiaRef>TG024</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>12</soLuong>
+            <tomTat>Tiểu thuyết về hành trình tìm lại chính mình của một người đàn ông qua những
+                trải
+                nghiệm cuộc sống, với nét viết tâm lý tinh tế.</tomTat>
+        </sach>
+
+        <sach id="S038">
+            <tieuDe>Chiếc Lá Cuối Cùng</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG025</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>20</soLuong>
+            <tomTat>Tập truyện ngắn về những khoảnh khắc trong cuộc sống với thông điệp về hy vọng
+                và
+                sức mạnh của niềm tin, được kể bằng lối văn giản dị.</tomTat>
+        </sach>
+
+        <sach id="S039">
+            <tieuDe>Thơ Nguyễn Bính</tieuDe>
+            <nhaXuatBanRef>NXB008</nhaXuatBanRef>
+            <tacGiaRef>TG009</tacGiaRef>
+            <theLoaiRef>TL003</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>15</soLuong>
+            <tomTat>Tuyển tập thơ của Nguyễn Bính với những bài thơ về quê hương, tình yêu và thiên
+                nhiên, mang đậm chất dân gian và tình cảm chân thành.</tomTat>
+        </sach>
+
+        <sach id="S040">
+            <tieuDe>Con Chó Nhỏ Mang Giỏ Hoa Hồng</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL004</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>22</soLuong>
+            <tomTat>Truyện thiếu nhi đầy cảm xúc về chú chó nhỏ và hành trình tìm kiếm hạnh phúc,
+                với
+                thông điệp về lòng trung thành và tình yêu thương.</tomTat>
+        </sach>
+
+        <sach id="S041">
+            <tieuDe>Bước Chậm Lại Giữa Thế Gian Vội Vã</tieuDe>
+            <nhaXuatBanRef>NXB010</nhaXuatBanRef>
+            <tacGiaRef>TG020</tacGiaRef>
+            <theLoaiRef>TL008</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>30</soLuong>
+            <tomTat>Sách về lối sống chậm rãi, tận hưởng cuộc sống và tìm lại sự cân bằng trong thế
+                giới
+                hiện đại đầy áp lực và vội vã.</tomTat>
+        </sach>
+
+        <sach id="S042">
+            <tieuDe>Mùa Xuân Của Mẹ</tieuDe>
+            <nhaXuatBanRef>NXB008</nhaXuatBanRef>
+            <tacGiaRef>TG025</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>14</soLuong>
+            <tomTat>Truyện ngắn về tình mẫu tử thiêng liêng, kể về những hy sinh thầm lặng của người
+                mẹ
+                vì con cái qua những câu chuyện đời thường.</tomTat>
+        </sach>
+
+        <sach id="S043">
+            <tieuDe>Hồn Trương Ba Da Hàng Thịt</tieuDe>
+            <nhaXuatBanRef>NXB006</nhaXuatBanRef>
+            <tacGiaRef>TG012</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>10</soLuong>
+            <tomTat>Truyện ngắn hài hước về sự nhập hồn giữa Trương Ba và người vợ Thi Nở, với thông
+                điệp nhân văn về sự bình đẳng nam nữ.</tomTat>
+        </sach>
+
+        <sach id="S044">
+            <tieuDe>Truyện Cười Dân Gian Việt Nam</tieuDe>
+            <nhaXuatBanRef>NXB003</nhaXuatBanRef>
+            <tacGiaRef>TG006</tacGiaRef>
+            <theLoaiRef>TL004</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>19</soLuong>
+            <tomTat>Tuyển tập các truyện cười dân gian Việt Nam với những câu chuyện hài hước, mang
+                đậm
+                tính giáo dục và khôn ngoan của người Việt.</tomTat>
+        </sach>
+
+        <sach id="S045">
+            <tieuDe>Quán Gò Đi Lên</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG014</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2018</namXuatBan>
+            <soLuong>9</soLuong>
+            <tomTat>Truyện ngắn về cuộc sống người nghèo ở Hà Nội xưa, kể về quán nhỏ và những con
+                người
+                bình dị với ước mơ vươn lên trong cuộc sống.</tomTat>
+        </sach>
+
+        <sach id="S046">
+            <tieuDe>Những Ngày Thơ Ấu</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG005</tacGiaRef>
+            <theLoaiRef>TL004</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>24</soLuong>
+            <tomTat>Tập truyện về tuổi thơ với những kỷ niệm đẹp đẽ, hồn nhiên về gia đình, bạn bè
+                và
+                những trò chơi dân gian đầy thú vị.</tomTat>
+        </sach>
+
+        <sach id="S047">
+            <tieuDe>Tình Khúc Bạch Dương</tieuDe>
+            <nhaXuatBanRef>NXB005</nhaXuatBanRef>
+            <tacGiaRef>TG024</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2021</namXuatBan>
+            <soLuong>17</soLuong>
+            <tomTat>Tiểu thuyết về tình yêu đẹp đẽ nhưng day dứt của thế hệ trẻ, với những suy ngẫm
+                về
+                cuộc sống và hạnh phúc trong thời hiện đại.</tomTat>
+        </sach>
+
+        <sach id="S048">
+            <tieuDe>Khu Vườn Ngày Xưa</tieuDe>
+            <nhaXuatBanRef>NXB009</nhaXuatBanRef>
+            <tacGiaRef>TG014</tacGiaRef>
+            <theLoaiRef>TL002</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2019</namXuatBan>
+            <soLuong>11</soLuong>
+            <tomTat>Truyện ngắn về khu vườn tuổi thơ với những kỷ niệm về thiên nhiên, con người và
+                tình
+                cảm gia đình qua giọng văn đầy cảm xúc.</tomTat>
+        </sach>
+
+        <sach id="S049">
+            <tieuDe>Người Con Gái Sông La</tieuDe>
+            <nhaXuatBanRef>NXB001</nhaXuatBanRef>
+            <tacGiaRef>TG007</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2020</namXuatBan>
+            <soLuong>13</soLuong>
+            <tomTat>Tiểu thuyết về người con gái miền núi với cuộc đời đầy gian khổ nhưng kiên
+                cường,
+                thể hiện sức sống mãnh liệt của con người vùng cao.</tomTat>
+        </sach>
+
+        <sach id="S050">
+            <tieuDe>Gửi Thời Gian Em Và Anh</tieuDe>
+            <nhaXuatBanRef>NXB004</nhaXuatBanRef>
+            <tacGiaRef>TG025</tacGiaRef>
+            <theLoaiRef>TL001</theLoaiRef>
+            <nguoidungRef>ND001</nguoidungRef>
+            <namXuatBan>2022</namXuatBan>
+            <soLuong>25</soLuong>
+            <tomTat>Tiểu thuyết lãng mạn về câu chuyện tình yêu thanh xuân đầy cảm động, với thông
+                điệp
+                về sự trân trọng thời gian và kỷ niệm đẹp đẽ.</tomTat>
+        </sach>
+    </sachs>
+
+    <!-- SÁCH TÁC GIẢ -->
+    <sachTacGias>
+        <sachTacGia>
+            <sachRef>S001</sachRef>
+            <tacGiaRef>TG001</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S002</sachRef>
+            <tacGiaRef>TG002</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S003</sachRef>
+            <tacGiaRef>TG003</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S004</sachRef>
+            <tacGiaRef>TG004</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S005</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S006</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S007</sachRef>
+            <tacGiaRef>TG006</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S008</sachRef>
+            <tacGiaRef>TG003</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S009</sachRef>
+            <tacGiaRef>TG002</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S010</sachRef>
+            <tacGiaRef>TG002</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S011</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S012</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S013</sachRef>
+            <tacGiaRef>TG007</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S014</sachRef>
+            <tacGiaRef>TG008</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S015</sachRef>
+            <tacGiaRef>TG008</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S016</sachRef>
+            <tacGiaRef>TG010</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S017</sachRef>
+            <tacGiaRef>TG012</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S018</sachRef>
+            <tacGiaRef>TG012</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S019</sachRef>
+            <tacGiaRef>TG013</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S020</sachRef>
+            <tacGiaRef>TG014</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S021</sachRef>
+            <tacGiaRef>TG015</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S022</sachRef>
+            <tacGiaRef>TG016</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S023</sachRef>
+            <tacGiaRef>TG017</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S024</sachRef>
+            <tacGiaRef>TG018</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S025</sachRef>
+            <tacGiaRef>TG018</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S026</sachRef>
+            <tacGiaRef>TG019</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S027</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S028</sachRef>
+            <tacGiaRef>TG020</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S029</sachRef>
+            <tacGiaRef>TG020</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S030</sachRef>
+            <tacGiaRef>TG020</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S031</sachRef>
+            <tacGiaRef>TG006</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S032</sachRef>
+            <tacGiaRef>TG021</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S033</sachRef>
+            <tacGiaRef>TG022</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S034</sachRef>
+            <tacGiaRef>TG023</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S035</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S036</sachRef>
+            <tacGiaRef>TG024</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S037</sachRef>
+            <tacGiaRef>TG024</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S038</sachRef>
+            <tacGiaRef>TG025</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S039</sachRef>
+            <tacGiaRef>TG009</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S040</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S041</sachRef>
+            <tacGiaRef>TG020</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S042</sachRef>
+            <tacGiaRef>TG025</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S043</sachRef>
+            <tacGiaRef>TG012</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S044</sachRef>
+            <tacGiaRef>TG006</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S045</sachRef>
+            <tacGiaRef>TG014</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S046</sachRef>
+            <tacGiaRef>TG005</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S047</sachRef>
+            <tacGiaRef>TG024</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S048</sachRef>
+            <tacGiaRef>TG014</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S049</sachRef>
+            <tacGiaRef>TG007</tacGiaRef>
+        </sachTacGia>
+
+        <sachTacGia>
+            <sachRef>S050</sachRef>
+            <tacGiaRef>TG025</tacGiaRef>
+        </sachTacGia>
+    </sachTacGias>
+
+    <!-- BẢN SAO SÁCH (Mỗi sách có nhiều bản sao) -->
+    <banSaoSachs>
+
+        <banSaoSach id="BSS001">
+            <sachRef>S001</sachRef>
+            <maVach>1000000000001</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS002">
+            <sachRef>S001</sachRef>
+            <maVach>1000000000002</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS003">
+            <sachRef>S002</sachRef>
+            <maVach>1000000000003</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS004">
+            <sachRef>S002</sachRef>
+            <maVach>1000000000004</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS005">
+            <sachRef>S003</sachRef>
+            <maVach>1000000000005</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS006">
+            <sachRef>S004</sachRef>
+            <maVach>1000000000006</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS007">
+            <sachRef>S005</sachRef>
+            <maVach>1000000000007</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS008">
+            <sachRef>S005</sachRef>
+            <maVach>1000000000008</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS009">
+            <sachRef>S006</sachRef>
+            <maVach>1000000000009</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS010">
+            <sachRef>S006</sachRef>
+            <maVach>1000000000010</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS011">
+            <sachRef>S007</sachRef>
+            <maVach>1000000000011</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS012">
+            <sachRef>S008</sachRef>
+            <maVach>1000000000012</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS013">
+            <sachRef>S009</sachRef>
+            <maVach>1000000000013</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS014">
+            <sachRef>S010</sachRef>
+            <maVach>1000000000014</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS015">
+            <sachRef>S011</sachRef>
+            <maVach>1000000000015</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS016">
+            <sachRef>S012</sachRef>
+            <maVach>1000000000016</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS017">
+            <sachRef>S013</sachRef>
+            <maVach>1000000000017</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS018">
+            <sachRef>S014</sachRef>
+            <maVach>1000000000018</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS019">
+            <sachRef>S015</sachRef>
+            <maVach>1000000000019</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS020">
+            <sachRef>S016</sachRef>
+            <maVach>1000000000020</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS021">
+            <sachRef>S017</sachRef>
+            <maVach>1000000000021</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS022">
+            <sachRef>S018</sachRef>
+            <maVach>1000000000022</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS023">
+            <sachRef>S019</sachRef>
+            <maVach>1000000000023</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS024">
+            <sachRef>S020</sachRef>
+            <maVach>1000000000024</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS025">
+            <sachRef>S021</sachRef>
+            <maVach>1000000000025</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS026">
+            <sachRef>S022</sachRef>
+            <maVach>1000000000026</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS027">
+            <sachRef>S023</sachRef>
+            <maVach>1000000000027</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS028">
+            <sachRef>S024</sachRef>
+            <maVach>1000000000028</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS029">
+            <sachRef>S025</sachRef>
+            <maVach>1000000000029</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS030">
+            <sachRef>S026</sachRef>
+            <maVach>1000000000030</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS031">
+            <sachRef>S027</sachRef>
+            <maVach>1000000000031</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS032">
+            <sachRef>S028</sachRef>
+            <maVach>1000000000032</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS033">
+            <sachRef>S029</sachRef>
+            <maVach>1000000000033</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS034">
+            <sachRef>S030</sachRef>
+            <maVach>1000000000034</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS035">
+            <sachRef>S031</sachRef>
+            <maVach>1000000000035</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS036">
+            <sachRef>S032</sachRef>
+            <maVach>1000000000036</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS037">
+            <sachRef>S033</sachRef>
+            <maVach>1000000000037</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS038">
+            <sachRef>S034</sachRef>
+            <maVach>1000000000038</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS039">
+            <sachRef>S035</sachRef>
+            <maVach>1000000000039</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS040">
+            <sachRef>S036</sachRef>
+            <maVach>1000000000040</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS041">
+            <sachRef>S037</sachRef>
+            <maVach>1000000000041</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS042">
+            <sachRef>S038</sachRef>
+            <maVach>1000000000042</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS043">
+            <sachRef>S039</sachRef>
+            <maVach>1000000000043</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS044">
+            <sachRef>S040</sachRef>
+            <maVach>1000000000044</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS045">
+            <sachRef>S041</sachRef>
+            <maVach>1000000000045</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS046">
+            <sachRef>S042</sachRef>
+            <maVach>1000000000046</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS047">
+            <sachRef>S043</sachRef>
+            <maVach>1000000000047</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS048">
+            <sachRef>S044</sachRef>
+            <maVach>1000000000048</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS049">
+            <sachRef>S045</sachRef>
+            <maVach>1000000000049</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS050">
+            <sachRef>S046</sachRef>
+            <maVach>1000000000050</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS051">
+            <sachRef>S047</sachRef>
+            <maVach>1000000000051</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS052">
+            <sachRef>S048</sachRef>
+            <maVach>1000000000052</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS053">
+            <sachRef>S049</sachRef>
+            <maVach>1000000000053</maVach>
+            <trangThai>Có sẵn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS054">
+            <sachRef>S050</sachRef>
+            <maVach>1000000000054</maVach>
+            <trangThai>Đã mượn</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS055">
+            <sachRef>S001</sachRef>
+            <maVach>1000000000055</maVach>
+            <trangThai>Bảo hành</trangThai>
+        </banSaoSach>
+
+        <banSaoSach id="BSS056">
+            <sachRef>S005</sachRef>
+            <maVach>1000000000056</maVach>
+            <trangThai>Mất</trangThai>
+        </banSaoSach>
+    </banSaoSachs>
+
+    <!-- NGƯỜI DÙNG (52 người: 2 admin + 50 user) -->
+    <nguoiDungs>
+        <nguoiDung id="ND001">
+            <hoTen>Nguyễn Văn An</hoTen>
+            <email>admin@thuvien.vn</email>
+            <matKhau>Admin@123</matKhau>
+            <sdt>0901234567</sdt>
+            <diaChi>123 Lê Lợi, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2020-01-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>admin</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND002">
+            <hoTen>Trần Thị Bình</hoTen>
+            <email>admin2@thuvien.vn</email>
+            <matKhau>Secure@456</matKhau>
+            <sdt>0912345678</sdt>
+            <diaChi>456 Hai Bà Trưng, Quận 3, TP.HCM</diaChi>
+            <ngayThamGia>2020-02-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>admin</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND003">
+            <hoTen>Lê Minh Châu</hoTen>
+            <email>leminhchau@gmail.com</email>
+            <matKhau>User@1234</matKhau>
+            <sdt>0923456789</sdt>
+            <diaChi>78 Nguyễn Huệ, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2021-03-10</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND004">
+            <hoTen>Phạm Văn Dũng</hoTen>
+            <email>phamvandung@yahoo.com</email>
+            <matKhau>Pass@word1</matKhau>
+            <sdt>0934567890</sdt>
+            <diaChi>234 Trần Hưng Đạo, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2021-04-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND005">
+            <hoTen>Hoàng Thị Hoa</hoTen>
+            <email>hoangthihoa@gmail.com</email>
+            <matKhau>Flower@99</matKhau>
+            <sdt>0945678901</sdt>
+            <diaChi>567 Lý Thường Kiệt, Quận 10, TP.HCM</diaChi>
+            <ngayThamGia>2021-05-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND006">
+            <hoTen>Vũ Đức Khoa</hoTen>
+            <email>vuduckhoa@outlook.com</email>
+            <matKhau>Science@22</matKhau>
+            <sdt>0956789012</sdt>
+            <diaChi>89 Điện Biên Phủ, Quận Bình Thạnh, TP.HCM</diaChi>
+            <ngayThamGia>2021-06-12</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND007">
+            <hoTen>Đỗ Thị Lan</hoTen>
+            <email>dothilan@gmail.com</email>
+            <matKhau>Orchid@88</matKhau>
+            <sdt>0967890123</sdt>
+            <diaChi>123 Cách Mạng Tháng Tám, Quận Tân Bình, TP.HCM</diaChi>
+            <ngayThamGia>2021-07-18</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND008">
+            <hoTen>Bùi Văn Nam</hoTen>
+            <email>buivannam@yahoo.com</email>
+            <matKhau>South@456</matKhau>
+            <sdt>0978901234</sdt>
+            <diaChi>456 Võ Văn Tần, Quận 3, TP.HCM</diaChi>
+            <ngayThamGia>2021-08-22</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND009">
+            <hoTen>Ngô Thị Mai</hoTen>
+            <email>ngothimai@gmail.com</email>
+            <matKhau>Spring@777</matKhau>
+            <sdt>0989012345</sdt>
+            <diaChi>789 Nguyễn Thị Minh Khai, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2021-09-05</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND010">
+            <hoTen>Trương Văn Phúc</hoTen>
+            <email>truongvanphuc@outlook.com</email>
+            <matKhau>Lucky@2021</matKhau>
+            <sdt>0990123456</sdt>
+            <diaChi>321 Pasteur, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2021-10-11</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND011">
+            <hoTen>Phan Thị Quỳnh</hoTen>
+            <email>phanthiquynh@gmail.com</email>
+            <matKhau>Quynh@555</matKhau>
+            <sdt>0901234568</sdt>
+            <diaChi>654 Lê Văn Sỹ, Quận Phú Nhuận, TP.HCM</diaChi>
+            <ngayThamGia>2021-11-25</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND012">
+            <hoTen>Lý Văn Sơn</hoTen>
+            <email>lyvanson@yahoo.com</email>
+            <matKhau>Mountain@33</matKhau>
+            <sdt>0912345679</sdt>
+            <diaChi>987 Hoàng Văn Thụ, Quận Tân Bình, TP.HCM</diaChi>
+            <ngayThamGia>2022-01-08</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND013">
+            <hoTen>Đinh Thị Thu</hoTen>
+            <email>dinhthithu@gmail.com</email>
+            <matKhau>Autumn@99</matKhau>
+            <sdt>0923456780</sdt>
+            <diaChi>147 Trường Chinh, Quận Tân Bình, TP.HCM</diaChi>
+            <ngayThamGia>2022-02-14</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND014">
+            <hoTen>Dương Văn Tùng</hoTen>
+            <email>duongvantung@outlook.com</email>
+            <matKhau>Strong@888</matKhau>
+            <sdt>0934567891</sdt>
+            <diaChi>258 Ba Tháng Hai, Quận 10, TP.HCM</diaChi>
+            <ngayThamGia>2022-03-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND015">
+            <hoTen>Mai Thị Uyên</hoTen>
+            <email>maithiuyen@gmail.com</email>
+            <matKhau>Grace@2022</matKhau>
+            <sdt>0945678902</sdt>
+            <diaChi>369 Nguyễn Đình Chiểu, Quận 3, TP.HCM</diaChi>
+            <ngayThamGia>2022-04-16</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND016">
+            <hoTen>Võ Văn Vinh</hoTen>
+            <email>vovanvinh@yahoo.com</email>
+            <matKhau>Glory@444</matKhau>
+            <sdt>0956789013</sdt>
+            <diaChi>741 Phan Xích Long, Quận Phú Nhuận, TP.HCM</diaChi>
+            <ngayThamGia>2022-05-22</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND017">
+            <hoTen>Cao Thị Xuân</hoTen>
+            <email>caothixuan@gmail.com</email>
+            <matKhau>Spring@111</matKhau>
+            <sdt>0967890124</sdt>
+            <diaChi>852 Xô Viết Nghệ Tĩnh, Quận Bình Thạnh, TP.HCM</diaChi>
+            <ngayThamGia>2022-06-28</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND018">
+            <hoTen>Hà Văn Yên</hoTen>
+            <email>havanyen@outlook.com</email>
+            <matKhau>Peace@666</matKhau>
+            <sdt>0978901235</sdt>
+            <diaChi>963 Lũy Bán Bích, Quận Tân Phú, TP.HCM</diaChi>
+            <ngayThamGia>2022-07-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND019">
+            <hoTen>Lâm Thị Anh</hoTen>
+            <email>lamthianh@gmail.com</email>
+            <matKhau>Cherry@222</matKhau>
+            <sdt>0989012346</sdt>
+            <diaChi>159 Âu Cơ, Quận Tân Phú, TP.HCM</diaChi>
+            <ngayThamGia>2022-08-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND020">
+            <hoTen>Phan Văn Bình</hoTen>
+            <email>phanvanbinh@yahoo.com</email>
+            <matKhau>Equal@999</matKhau>
+            <sdt>0990123457</sdt>
+            <diaChi>753 Lạc Long Quân, Quận 11, TP.HCM</diaChi>
+            <ngayThamGia>2022-09-12</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND021">
+            <hoTen>Trịnh Thị Cúc</hoTen>
+            <email>trinhthicuc@gmail.com</email>
+            <matKhau>Daisy@2022</matKhau>
+            <sdt>0901234569</sdt>
+            <diaChi>246 Tân Sơn Nhì, Quận Tân Phú, TP.HCM</diaChi>
+            <ngayThamGia>2022-10-18</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND022">
+            <hoTen>Huỳnh Văn Đạt</hoTen>
+            <email>huynhvandat@outlook.com</email>
+            <matKhau>Achieve@77</matKhau>
+            <sdt>0912345680</sdt>
+            <diaChi>357 Tân Kỳ Tân Quý, Quận Tân Phú, TP.HCM</diaChi>
+            <ngayThamGia>2022-11-24</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND023">
+            <hoTen>Đặng Thị Em</hoTen>
+            <email>dangthiem@gmail.com</email>
+            <matKhau>Sister@333</matKhau>
+            <sdt>0923456781</sdt>
+            <diaChi>468 Thoại Ngọc Hầu, Quận Tân Phú, TP.HCM</diaChi>
+            <ngayThamGia>2023-01-05</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND024">
+            <hoTen>Tô Văn Giang</hoTen>
+            <email>tovangiang@yahoo.com</email>
+            <matKhau>River@5555</matKhau>
+            <sdt>0934567892</sdt>
+            <diaChi>579 Hậu Giang, Quận 6, TP.HCM</diaChi>
+            <ngayThamGia>2023-02-11</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND025">
+            <hoTen>Lưu Thị Hằng</hoTen>
+            <email>luuthihang@gmail.com</email>
+            <matKhau>Moon@8888</matKhau>
+            <sdt>0945678903</sdt>
+            <diaChi>680 Kinh Dương Vương, Quận 6, TP.HCM</diaChi>
+            <ngayThamGia>2023-03-19</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND026">
+            <hoTen>Nguyễn Văn Khải</hoTen>
+            <email>nguyenvankhai@outlook.com</email>
+            <matKhau>Victory@11</matKhau>
+            <sdt>0956789014</sdt>
+            <diaChi>791 Hồng Bàng, Quận 6, TP.HCM</diaChi>
+            <ngayThamGia>2023-04-25</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND027">
+            <hoTen>Trần Thị Linh</hoTen>
+            <email>tranthilinh@gmail.com</email>
+            <matKhau>Spirit@444</matKhau>
+            <sdt>0967890125</sdt>
+            <diaChi>135 Minh Phụng, Quận 6, TP.HCM</diaChi>
+            <ngayThamGia>2023-05-30</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND028">
+            <hoTen>Phạm Văn Minh</hoTen>
+            <email>phamvanminh@yahoo.com</email>
+            <matKhau>Bright@222</matKhau>
+            <sdt>0978901236</sdt>
+            <diaChi>246 Võ Thị Sáu, Quận 3, TP.HCM</diaChi>
+            <ngayThamGia>2023-06-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND029">
+            <hoTen>Hoàng Thị Ngọc</hoTen>
+            <email>hoangthingoc@gmail.com</email>
+            <matKhau>Pearl@9999</matKhau>
+            <sdt>0989012347</sdt>
+            <diaChi>357 Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM</diaChi>
+            <ngayThamGia>2023-07-22</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND030">
+            <hoTen>Vũ Văn Phong</hoTen>
+            <email>vuvanphong@outlook.com</email>
+            <matKhau>Wind@5678</matKhau>
+            <sdt>0990123458</sdt>
+            <diaChi>468 Trần Quốc Toản, Quận 3, TP.HCM</diaChi>
+            <ngayThamGia>2023-08-18</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND031">
+            <hoTen>Đỗ Thị Quế</hoTen>
+            <email>dothique@gmail.com</email>
+            <matKhau>Cinnamon@12</matKhau>
+            <sdt>0901234570</sdt>
+            <diaChi>579 Ký Con, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2023-09-24</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND032">
+            <hoTen>Bùi Văn Sáng</hoTen>
+            <email>buivansang@yahoo.com</email>
+            <matKhau>Morning@66</matKhau>
+            <sdt>0912345681</sdt>
+            <diaChi>680 Đồng Khởi, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2023-10-30</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND033">
+            <hoTen>Ngô Thị Tâm</hoTen>
+            <email>ngothitam@gmail.com</email>
+            <matKhau>Heart@7777</matKhau>
+            <sdt>0923456782</sdt>
+            <diaChi>791 Tôn Đức Thắng, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2023-11-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND034">
+            <hoTen>Trương Văn Thắng</hoTen>
+            <email>truongvanthang@outlook.com</email>
+            <matKhau>Win@12345</matKhau>
+            <sdt>0934567893</sdt>
+            <diaChi>135 Mạc Thị Bưởi, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2023-12-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND035">
+            <hoTen>Phan Thị Uyên</hoTen>
+            <email>phanthiuyen@gmail.com</email>
+            <matKhau>Gentle@888</matKhau>
+            <sdt>0945678904</sdt>
+            <diaChi>246 Nguyễn Công Trứ, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-01-10</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND036">
+            <hoTen>Lý Văn Vũ</hoTen>
+            <email>lyvanvu@yahoo.com</email>
+            <matKhau>Universe@1</matKhau>
+            <sdt>0956789015</sdt>
+            <diaChi>357 Nguyễn Trãi, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-02-14</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND037">
+            <hoTen>Đinh Thị Yến</hoTen>
+            <email>dinhthiyen@gmail.com</email>
+            <matKhau>Swallow@22</matKhau>
+            <sdt>0967890126</sdt>
+            <diaChi>468 Phạm Ngũ Lão, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-03-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND038">
+            <hoTen>Dương Văn An</hoTen>
+            <email>duongvanan@outlook.com</email>
+            <matKhau>Safe@54321</matKhau>
+            <sdt>0978901237</sdt>
+            <diaChi>579 Bùi Viện, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-04-25</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND039">
+            <hoTen>Mai Thị Bích</hoTen>
+            <email>maithibich@gmail.com</email>
+            <matKhau>Jade@11111</matKhau>
+            <sdt>0989012348</sdt>
+            <diaChi>680 Đề Thám, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-05-30</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND040">
+            <hoTen>Võ Văn Cường</hoTen>
+            <email>vovancuong@yahoo.com</email>
+            <matKhau>Strong@333</matKhau>
+            <sdt>0990123459</sdt>
+            <diaChi>791 Cô Giang, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-06-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND041">
+            <hoTen>Cao Thị Diễm</hoTen>
+            <email>caothidiem@gmail.com</email>
+            <matKhau>Pretty@999</matKhau>
+            <sdt>0901234571</sdt>
+            <diaChi>135 Trần Đình Xu, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-07-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND042">
+            <hoTen>Hà Văn Đức</hoTen>
+            <email>havanduc@outlook.com</email>
+            <matKhau>Virtue@777</matKhau>
+            <sdt>0912345682</sdt>
+            <diaChi>246 Nguyễn Cư Trinh, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-08-25</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND043">
+            <hoTen>Lâm Thị Hương</hoTen>
+            <email>lamthihuong@gmail.com</email>
+            <matKhau>Fragrance@2</matKhau>
+            <sdt>0923456783</sdt>
+            <diaChi>357 Trần Hưng Đạo, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-09-10</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND044">
+            <hoTen>Phan Văn Khánh</hoTen>
+            <email>phanvankhanh@yahoo.com</email>
+            <matKhau>Celebrate@8</matKhau>
+            <sdt>0934567894</sdt>
+            <diaChi>468 Calmette, Quận 1, TP.HCM</diaChi>
+            <ngayThamGia>2024-10-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND045">
+            <hoTen>Trịnh Thị Loan</hoTen>
+            <email>trinhthiloan@gmail.com</email>
+            <matKhau>Phoenix@55</matKhau>
+            <sdt>0945678905</sdt>
+            <diaChi>579 Ký Hòa, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2024-11-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND046">
+            <hoTen>Huỳnh Văn Minh</hoTen>
+            <email>huynhvanminh@outlook.com</email>
+            <matKhau>Clear@6789</matKhau>
+            <sdt>0956789016</sdt>
+            <diaChi>680 Nguyễn Trãi, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2024-12-25</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND047">
+            <hoTen>Đặng Thị Nga</hoTen>
+            <email>dangthinga@gmail.com</email>
+            <matKhau>Elegant@44</matKhau>
+            <sdt>0967890127</sdt>
+            <diaChi>791 Trần Phú, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2025-01-10</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND048">
+            <hoTen>Tô Văn Phúc</hoTen>
+            <email>tovanphuc@yahoo.com</email>
+            <matKhau>Fortune@11</matKhau>
+            <sdt>0978901238</sdt>
+            <diaChi>135 Hùng Vương, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2025-02-15</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND049">
+            <hoTen>Lưu Thị Quỳnh</hoTen>
+            <email>luuthiquynh@gmail.com</email>
+            <matKhau>Ruby@22222</matKhau>
+            <sdt>0989012349</sdt>
+            <diaChi>246 Châu Văn Liêm, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2025-03-20</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND050">
+            <hoTen>Nguyễn Văn Sơn</hoTen>
+            <email>nguyenvanson@outlook.com</email>
+            <matKhau>Mountain@9</matKhau>
+            <sdt>0990123460</sdt>
+            <diaChi>357 An Dương Vương, Quận 5, TP.HCM</diaChi>
+            <ngayThamGia>2025-04-25</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND051">
+            <hoTen>Trần Thị Thảo</hoTen>
+            <email>tranthithao@gmail.com</email>
+            <matKhau>Grass@3333</matKhau>
+            <sdt>0901234572</sdt>
+            <diaChi>468 Lý Thái Tổ, Quận 10, TP.HCM</diaChi>
+            <ngayThamGia>2025-05-30</ngayThamGia>
+            <trangThai>Hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+        <nguoiDung id="ND052">
+            <hoTen>Phạm Văn Tú</hoTen>
+            <email>phamvantu@yahoo.com</email>
+            <matKhau>Talent@888</matKhau>
+            <sdt>0912345683</sdt>
+            <diaChi>579 Sư Vạn Hạnh, Quận 10, TP.HCM</diaChi>
+            <ngayThamGia>2025-06-15</ngayThamGia>
+            <trangThai>Ngừng hoạt động</trangThai>
+            <vaiTro>user</vaiTro>
+        </nguoiDung>
+
+    </nguoiDungs>
+
+    <!-- PHIẾU MƯỢN (30 phiếu) -->
+    <phieuMuons>
+        <phieuMuon id="PM001">
+            <nguoiDungRef>ND003</nguoiDungRef>
+            <banSaoSachRef>BSS002</banSaoSachRef>
+            <ngayMuon>2024-09-01</ngayMuon>
+            <hanTra>2024-09-15</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM002">
+            <nguoiDungRef>ND005</nguoiDungRef>
+            <banSaoSachRef>BSS004</banSaoSachRef>
+            <ngayMuon>2024-08-20</ngayMuon>
+            <hanTra>2024-09-03</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM003">
+            <nguoiDungRef>ND007</nguoiDungRef>
+            <banSaoSachRef>BSS006</banSaoSachRef>
+            <ngayMuon>2024-09-05</ngayMuon>
+            <hanTra>2024-09-19</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM004">
+            <nguoiDungRef>ND010</nguoiDungRef>
+            <banSaoSachRef>BSS008</banSaoSachRef>
+            <ngayMuon>2024-08-10</ngayMuon>
+            <hanTra>2024-08-24</hanTra>
+            <trangThai>Quá hạn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM005">
+            <nguoiDungRef>ND012</nguoiDungRef>
+            <banSaoSachRef>BSS010</banSaoSachRef>
+            <ngayMuon>2024-09-08</ngayMuon>
+            <hanTra>2024-09-22</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM006">
+            <nguoiDungRef>ND015</nguoiDungRef>
+            <banSaoSachRef>BSS012</banSaoSachRef>
+            <ngayMuon>2024-09-02</ngayMuon>
+            <hanTra>2024-09-16</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM007">
+            <nguoiDungRef>ND018</nguoiDungRef>
+            <banSaoSachRef>BSS015</banSaoSachRef>
+            <ngayMuon>2024-08-25</ngayMuon>
+            <hanTra>2024-09-08</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM008">
+            <nguoiDungRef>ND020</nguoiDungRef>
+            <banSaoSachRef>BSS017</banSaoSachRef>
+            <ngayMuon>2024-09-10</ngayMuon>
+            <hanTra>2024-09-24</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM009">
+            <nguoiDungRef>ND022</nguoiDungRef>
+            <banSaoSachRef>BSS020</banSaoSachRef>
+            <ngayMuon>2024-08-15</ngayMuon>
+            <hanTra>2024-08-29</hanTra>
+            <trangThai>Quá hạn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM010">
+            <nguoiDungRef>ND025</nguoiDungRef>
+            <banSaoSachRef>BSS022</banSaoSachRef>
+            <ngayMuon>2024-09-03</ngayMuon>
+            <hanTra>2024-09-17</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM011">
+            <nguoiDungRef>ND028</nguoiDungRef>
+            <banSaoSachRef>BSS025</banSaoSachRef>
+            <ngayMuon>2024-09-06</ngayMuon>
+            <hanTra>2024-09-20</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM012">
+            <nguoiDungRef>ND030</nguoiDungRef>
+            <banSaoSachRef>BSS027</banSaoSachRef>
+            <ngayMuon>2024-08-28</ngayMuon>
+            <hanTra>2024-09-11</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM013">
+            <nguoiDungRef>ND033</nguoiDungRef>
+            <banSaoSachRef>BSS030</banSaoSachRef>
+            <ngayMuon>2024-09-09</ngayMuon>
+            <hanTra>2024-09-23</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM014">
+            <nguoiDungRef>ND035</nguoiDungRef>
+            <banSaoSachRef>BSS032</banSaoSachRef>
+            <ngayMuon>2024-08-18</ngayMuon>
+            <hanTra>2024-09-01</hanTra>
+            <trangThai>Quá hạn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM015">
+            <nguoiDungRef>ND038</nguoiDungRef>
+            <banSaoSachRef>BSS034</banSaoSachRef>
+            <ngayMuon>2024-09-04</ngayMuon>
+            <hanTra>2024-09-18</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM016">
+            <nguoiDungRef>ND040</nguoiDungRef>
+            <banSaoSachRef>BSS037</banSaoSachRef>
+            <ngayMuon>2024-09-07</ngayMuon>
+            <hanTra>2024-09-21</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM017">
+            <nguoiDungRef>ND042</nguoiDungRef>
+            <banSaoSachRef>BSS039</banSaoSachRef>
+            <ngayMuon>2024-08-22</ngayMuon>
+            <hanTra>2024-09-05</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM018">
+            <nguoiDungRef>ND045</nguoiDungRef>
+            <banSaoSachRef>BSS041</banSaoSachRef>
+            <ngayMuon>2024-09-11</ngayMuon>
+            <hanTra>2024-09-25</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM019">
+            <nguoiDungRef>ND047</nguoiDungRef>
+            <banSaoSachRef>BSS044</banSaoSachRef>
+            <ngayMuon>2024-08-12</ngayMuon>
+            <hanTra>2024-08-26</hanTra>
+            <trangThai>Quá hạn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM020">
+            <nguoiDungRef>ND050</nguoiDungRef>
+            <banSaoSachRef>BSS046</banSaoSachRef>
+            <ngayMuon>2024-09-12</ngayMuon>
+            <hanTra>2024-09-26</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM021">
+            <nguoiDungRef>ND006</nguoiDungRef>
+            <banSaoSachRef>BSS049</banSaoSachRef>
+            <ngayMuon>2024-08-30</ngayMuon>
+            <hanTra>2024-09-13</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM022">
+            <nguoiDungRef>ND009</nguoiDungRef>
+            <banSaoSachRef>BSS051</banSaoSachRef>
+            <ngayMuon>2024-09-13</ngayMuon>
+            <hanTra>2024-09-27</hanTra>
+            <trangThai>Đang mượn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM023">
+            <nguoiDungRef>ND013</nguoiDungRef>
+            <banSaoSachRef>BSS054</banSaoSachRef>
+            <ngayMuon>2024-08-05</ngayMuon>
+            <hanTra>2024-08-19</hanTra>
+            <trangThai>Quá hạn</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM024">
+            <nguoiDungRef>ND016</nguoiDungRef>
+            <banSaoSachRef>BSS003</banSaoSachRef>
+            <ngayMuon>2024-07-20</ngayMuon>
+            <hanTra>2024-08-03</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM025">
+            <nguoiDungRef>ND019</nguoiDungRef>
+            <banSaoSachRef>BSS005</banSaoSachRef>
+            <ngayMuon>2024-07-25</ngayMuon>
+            <hanTra>2024-08-08</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM026">
+            <nguoiDungRef>ND023</nguoiDungRef>
+            <banSaoSachRef>BSS007</banSaoSachRef>
+            <ngayMuon>2024-07-15</ngayMuon>
+            <hanTra>2024-07-29</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM027">
+            <nguoiDungRef>ND026</nguoiDungRef>
+            <banSaoSachRef>BSS009</banSaoSachRef>
+            <ngayMuon>2024-07-10</ngayMuon>
+            <hanTra>2024-07-24</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM028">
+            <nguoiDungRef>ND031</nguoiDungRef>
+            <banSaoSachRef>BSS011</banSaoSachRef>
+            <ngayMuon>2024-07-05</ngayMuon>
+            <hanTra>2024-07-19</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM029">
+            <nguoiDungRef>ND036</nguoiDungRef>
+            <banSaoSachRef>BSS013</banSaoSachRef>
+            <ngayMuon>2024-06-28</ngayMuon>
+            <hanTra>2024-07-12</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM030">
+            <nguoiDungRef>ND041</nguoiDungRef>
+            <banSaoSachRef>BSS016</banSaoSachRef>
+            <ngayMuon>2024-06-20</ngayMuon>
+            <hanTra>2024-07-04</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM031">
+            <nguoiDungRef>ND044</nguoiDungRef>
+            <banSaoSachRef>BSS018</banSaoSachRef>
+            <ngayMuon>2024-06-15</ngayMuon>
+            <hanTra>2024-06-29</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM032">
+            <nguoiDungRef>ND048</nguoiDungRef>
+            <banSaoSachRef>BSS021</banSaoSachRef>
+            <ngayMuon>2024-06-10</ngayMuon>
+            <hanTra>2024-06-24</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM033">
+            <nguoiDungRef>ND004</nguoiDungRef>
+            <banSaoSachRef>BSS023</banSaoSachRef>
+            <ngayMuon>2024-05-25</ngayMuon>
+            <hanTra>2024-06-08</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM034">
+            <nguoiDungRef>ND008</nguoiDungRef>
+            <banSaoSachRef>BSS026</banSaoSachRef>
+            <ngayMuon>2024-05-20</ngayMuon>
+            <hanTra>2024-06-03</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+
+        <phieuMuon id="PM035">
+            <nguoiDungRef>ND011</nguoiDungRef>
+            <banSaoSachRef>BSS028</banSaoSachRef>
+            <ngayMuon>2024-05-15</ngayMuon>
+            <hanTra>2024-05-29</hanTra>
+            <trangThai>Đã trả</trangThai>
+        </phieuMuon>
+    </phieuMuons>
+
+    <!-- PHIẾU PHẠT (15 phiếu) -->
+    <phieuPhats>
+        <phieuPhat id="PP001">
+            <phieuMuonRef>PM004</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 41 ngày</lyDo>
+            <soTien>82000</soTien>
+            <ngayXuPhat>2024-10-04</ngayXuPhat>
+            <ngayDongPhat>2024-10-04</ngayDongPhat>
+            <daDong>false</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP002">
+            <phieuMuonRef>PM009</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 36 ngày</lyDo>
+            <soTien>72000</soTien>
+            <ngayXuPhat>2024-10-04</ngayXuPhat>
+            <ngayDongPhat>2024-10-04</ngayDongPhat>
+            <daDong>false</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP003">
+            <phieuMuonRef>PM014</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 33 ngày</lyDo>
+            <soTien>66000</soTien>
+            <ngayXuPhat>2024-10-04</ngayXuPhat>
+            <ngayDongPhat>2024-10-04</ngayDongPhat>
+            <daDong>false</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP004">
+            <phieuMuonRef>PM019</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 39 ngày</lyDo>
+            <soTien>78000</soTien>
+            <ngayXuPhat>2024-10-04</ngayXuPhat>
+            <ngayDongPhat>2024-10-04</ngayDongPhat>
+            <daDong>false</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP005">
+            <phieuMuonRef>PM023</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 46 ngày</lyDo>
+            <soTien>92000</soTien>
+            <ngayXuPhat>2024-10-04</ngayXuPhat>
+            <ngayDongPhat>2024-10-04</ngayDongPhat>
+            <daDong>false</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP006">
+            <phieuMuonRef>PM002</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 5 ngày</lyDo>
+            <soTien>10000</soTien>
+            <ngayXuPhat>2024-09-08</ngayXuPhat>
+            <ngayDongPhat>2024-09-08</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP007">
+            <phieuMuonRef>PM007</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 3 ngày</lyDo>
+            <soTien>6000</soTien>
+            <ngayXuPhat>2024-09-11</ngayXuPhat>
+            <ngayDongPhat>2024-09-11</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP008">
+            <phieuMuonRef>PM012</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 2 ngày</lyDo>
+            <soTien>4000</soTien>
+            <ngayXuPhat>2024-09-13</ngayXuPhat>
+            <ngayDongPhat>2024-09-13</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP009">
+            <phieuMuonRef>PM017</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 1 ngày</lyDo>
+            <soTien>2000</soTien>
+            <ngayXuPhat>2024-09-06</ngayXuPhat>
+            <ngayDongPhat>2024-09-06</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP010">
+            <phieuMuonRef>PM024</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 7 ngày</lyDo>
+            <soTien>14000</soTien>
+            <ngayXuPhat>2024-08-10</ngayXuPhat>
+            <ngayDongPhat>2024-08-10</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP011">
+            <phieuMuonRef>PM025</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 4 ngày</lyDo>
+            <soTien>8000</soTien>
+            <ngayXuPhat>2024-08-12</ngayXuPhat>
+            <ngayDongPhat>2024-08-12</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP012">
+            <phieuMuonRef>PM026</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 6 ngày</lyDo>
+            <soTien>12000</soTien>
+            <ngayXuPhat>2024-08-04</ngayXuPhat>
+            <ngayDongPhat>2024-08-05</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP013">
+            <phieuMuonRef>PM028</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 2 ngày</lyDo>
+            <soTien>4000</soTien>
+            <ngayXuPhat>2024-07-21</ngayXuPhat>
+            <ngayDongPhat>2024-07-22</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP014">
+            <phieuMuonRef>PM031</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 3 ngày</lyDo>
+            <soTien>6000</soTien>
+            <ngayXuPhat>2024-07-02</ngayXuPhat>
+            <ngayDongPhat>2024-07-03</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+
+        <phieuPhat id="PP015">
+            <phieuMuonRef>PM033</phieuMuonRef>
+            <lyDo>Trả sách quá hạn 5 ngày</lyDo>
+            <soTien>10000</soTien>
+            <ngayXuPhat>2024-06-13</ngayXuPhat>
+            <ngayDongPhat>2024-06-14</ngayDongPhat>
+            <daDong>true</daDong>
+        </phieuPhat>
+    </phieuPhats>
+
+</thuvien>
