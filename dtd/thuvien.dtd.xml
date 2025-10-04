@@ -1,97 +1,326 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ThuVien SYSTEM "thuvien.dtd">
-
 <ThuVien>
 
-  <!-- Tác giả -->
-  <TacGia tacgia_id="TG1">
+  <!-- NGƯỜI DÙNG -->
+  <NguoiDung nguoidung_id="ND001" trang_thai="hoat_dong" vai_tro="nhan_vien">
+    <HoTen>Nguyễn Văn An</HoTen>
+    <Email>admin@thuvien.vn</Email>
+    <Password>Admin@123</Password>
+    <SoDienThoai>0901234567</SoDienThoai>
+    <DiaChi>123 Lê Lợi, Quận 1, TP.HCM</DiaChi>
+    <NgayThamGia>2020-01-15</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND002" trang_thai="hoat_dong" vai_tro="nhan_vien">
+    <HoTen>Trần Thị Bình</HoTen>
+    <Email>admin2@thuvien.vn</Email>
+    <Password>Secure@456</Password>
+    <SoDienThoai>0912345678</SoDienThoai>
+    <DiaChi>456 Hai Bà Trưng, Quận 3, TP.HCM</DiaChi>
+    <NgayThamGia>2020-02-20</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND003" trang_thai="hoat_dong" vai_tro="thanh_vien">
+    <HoTen>Lê Minh Châu</HoTen>
+    <Email>leminhchau@gmail.com</Email>
+    <Password>User@1234</Password>
+    <SoDienThoai>0923456789</SoDienThoai>
+    <DiaChi>78 Nguyễn Huệ, Quận 1, TP.HCM</DiaChi>
+    <NgayThamGia>2021-03-10</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND004" trang_thai="hoat_dong" vai_tro="thanh_vien">
+    <HoTen>Phạm Văn Dũng</HoTen>
+    <Email>phamvandung@yahoo.com</Email>
+    <Password>Pass@word1</Password>
+    <SoDienThoai>0934567890</SoDienThoai>
+    <DiaChi>234 Trần Hưng Đạo, Quận 5, TP.HCM</DiaChi>
+    <NgayThamGia>2021-04-15</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND005" trang_thai="hoat_dong" vai_tro="thanh_vien">
+    <HoTen>Hoàng Thị Hoa</HoTen>
+    <Email>hoangthihoa@gmail.com</Email>
+    <Password>Flower@99</Password>
+    <SoDienThoai>0945678901</SoDienThoai>
+    <DiaChi>567 Lý Thường Kiệt, Quận 10, TP.HCM</DiaChi>
+    <NgayThamGia>2021-05-20</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND007" trang_thai="hoat_dong" vai_tro="thanh_vien">
+    <HoTen>Nguyễn Văn Khánh</HoTen>
+    <Email>khanhnd007@gmail.com</Email>
+    <Password>User@7007</Password>
+    <SoDienThoai>0977007007</SoDienThoai>
+    <DiaChi>12 Nguyễn Thái Học, Hà Nội</DiaChi>
+    <NgayThamGia>2022-01-10</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND010" trang_thai="hoat_dong" vai_tro="thanh_vien">
+    <HoTen>Trần Thị Lan</HoTen>
+    <Email>lannd010@gmail.com</Email>
+    <Password>User@1010</Password>
+    <SoDienThoai>0988101010</SoDienThoai>
+    <DiaChi>34 Phạm Ngũ Lão, TP.HCM</DiaChi>
+    <NgayThamGia>2022-03-05</NgayThamGia>
+  </NguoiDung>
+
+  <NguoiDung nguoidung_id="ND012" trang_thai="hoat_dong" vai_tro="thanh_vien">
+    <HoTen>Phạm Đức Hùng</HoTen>
+    <Email>hungnd012@gmail.com</Email>
+    <Password>User@1212</Password>
+    <SoDienThoai>0912121212</SoDienThoai>
+    <DiaChi>89 Lý Tự Trọng, Đà Nẵng</DiaChi>
+    <NgayThamGia>2022-05-15</NgayThamGia>
+  </NguoiDung>
+
+  <!-- TÁC GIẢ -->
+  <TacGia tacgia_id="TG001">
+    <HoTen>Nguyễn Du</HoTen>
+    <NgaySinh>1766-01-03</NgaySinh>
+    <TieuSu>Đại thi hào Nguyễn Du, tác giả Truyện Kiều</TieuSu>
+  </TacGia>
+
+  <TacGia tacgia_id="TG002">
+    <HoTen>Nam Cao</HoTen>
+    <NgaySinh>1915-10-29</NgaySinh>
+    <TieuSu>Nhà văn hiện thực xuất sắc Việt Nam</TieuSu>
+  </TacGia>
+
+  <TacGia tacgia_id="TG003">
+    <HoTen>Ngô Tất Tố</HoTen>
+    <NgaySinh>1894-10-25</NgaySinh>
+    <TieuSu>Nhà văn, nhà báo, nhà nghiên cứu văn hóa Việt Nam</TieuSu>
+  </TacGia>
+
+  <TacGia tacgia_id="TG004">
+    <HoTen>Vũ Trọng Phụng</HoTen>
+    <NgaySinh>1912-10-20</NgaySinh>
+    <TieuSu>Nhà văn, nhà báo nổi tiếng Việt Nam</TieuSu>
+  </TacGia>
+
+  <TacGia tacgia_id="TG005">
     <HoTen>Nguyễn Nhật Ánh</HoTen>
     <NgaySinh>1955-05-07</NgaySinh>
-    <TieuSu>Tác giả nổi tiếng với nhiều sách thiếu nhi.</TieuSu>
-  </TacGia>
-  <TacGia tacgia_id="TG2">
-    <HoTen>J. K. Rowling</HoTen>
-    <NgaySinh>1965-07-31</NgaySinh>
-    <TieuSu>Tác giả bộ truyện Harry Potter.</TieuSu>
+    <TieuSu>Nhà văn Việt Nam chuyên viết cho tuổi mới lớn</TieuSu>
   </TacGia>
 
-  <!-- Nhà xuất bản -->
-  <NhaXuatBan nxb_id="NXB1">
-    <Ten>NXB Trẻ</Ten>
-    <DiaChiNXB>TP. Hồ Chí Minh</DiaChiNXB>
-    <SoDienThoaiNXB>0123456789</SoDienThoaiNXB>
-  </NhaXuatBan>
-  <NhaXuatBan nxb_id="NXB2">
-    <Ten>Bloomsbury</Ten>
-    <DiaChiNXB>London, UK</DiaChiNXB>
-    <SoDienThoaiNXB>+44-12345678</SoDienThoaiNXB>
+  <!-- NHÀ XUẤT BẢN -->
+  <NhaXuatBan nxb_id="NXB001">
+    <Ten>Nhà xuất bản Văn học</Ten>
+    <DiaChi>18 Nguyễn Trường Tộ, Ba Đình, Hà Nội</DiaChi>
+    <SoDienThoai>2438222368</SoDienThoai>
   </NhaXuatBan>
 
-  <!-- Thể loại -->
-  <TheLoai theloai_id="TL1">
-    <TenTheLoai>Thiếu nhi</TenTheLoai>
+  <NhaXuatBan nxb_id="NXB002">
+    <Ten>Nhà xuất bản Giáo dục Việt Nam</Ten>
+    <DiaChi>81 Trần Hưng Đạo, Hoàn Kiếm, Hà Nội</DiaChi>
+    <SoDienThoai>2438220801</SoDienThoai>
+  </NhaXuatBan>
+
+  <NhaXuatBan nxb_id="NXB003">
+    <Ten>Nhà xuất bản Kim Đồng</Ten>
+    <DiaChi>55 Quang Trung, Hai Bà Trưng, Hà Nội</DiaChi>
+    <SoDienThoai>2439434730</SoDienThoai>
+  </NhaXuatBan>
+
+  <NhaXuatBan nxb_id="NXB004">
+    <Ten>Nhà xuất bản Trẻ</Ten>
+    <DiaChi>161B Lý Chính Thắng, Quận 3, TP.HCM</DiaChi>
+    <SoDienThoai>2839316211</SoDienThoai>
+  </NhaXuatBan>
+
+  <NhaXuatBan nxb_id="NXB005">
+    <Ten>Nhà xuất bản Tổng hợp TPHCM</Ten>
+    <DiaChi>62 Nguyễn Thị Minh Khai, Quận 1, TP.HCM</DiaChi>
+    <SoDienThoai>2838225340</SoDienThoai>
+  </NhaXuatBan>
+
+  <!-- THỂ LOẠI -->
+  <TheLoai theloai_id="TL001">
+    <TenTheLoai>Tiểu thuyết</TenTheLoai>
   </TheLoai>
-  <TheLoai theloai_id="TL2">
-    <TenTheLoai>Fantasy</TenTheLoai>
+
+  <TheLoai theloai_id="TL002">
+    <TenTheLoai>Truyện ngắn</TenTheLoai>
   </TheLoai>
 
-  <!-- Sách -->
-  <Sach sach_id="S1" nxb_ref="NXB1" theloai_ref="TL1">
-    <TieuDe>Kính vạn hoa</TieuDe>
-    <ISBN>ISBN001</ISBN>
-    <NamXuatBan>1995</NamXuatBan>
-    <TomTat>Tập truyện thiếu nhi nổi tiếng.</TomTat>
-    <SoLuong>3</SoLuong>
+  <TheLoai theloai_id="TL003">
+    <TenTheLoai>Thơ ca</TenTheLoai>
+  </TheLoai>
+
+  <TheLoai theloai_id="TL004">
+    <TenTheLoai>Văn học thiếu nhi</TenTheLoai>
+  </TheLoai>
+
+  <TheLoai theloai_id="TL005">
+    <TenTheLoai>Văn học cổ điển</TenTheLoai>
+  </TheLoai>
+
+  <!-- SÁCH -->
+  <Sach sach_id="S001" nxb_ref="NXB001" theloai_ref="TL005" nguoidung_ref="ND001">
+    <TieuDe>Truyện Kiều</TieuDe>
+    <ISBN>978-604-69-1234-5</ISBN>
+    <NamXuatBan>2020</NamXuatBan>
+    <TomTat>Tác phẩm trường ca bất hủ của Nguyễn Du kể về cuộc đời của Thuý Kiều</TomTat>
+    <SoLuong>15</SoLuong>
   </Sach>
-  <Sach sach_id="S2" nxb_ref="NXB2" theloai_ref="TL2">
-    <TieuDe>Harry Potter and the Philosopher's Stone</TieuDe>
-    <ISBN>ISBN002</ISBN>
-    <NamXuatBan>1997</NamXuatBan>
-    <TomTat>Tập 1 trong series Harry Potter.</TomTat>
-    <SoLuong>5</SoLuong>
+
+  <Sach sach_id="S002" nxb_ref="NXB001" theloai_ref="TL002" nguoidung_ref="ND001">
+    <TieuDe>Chí Phèo</TieuDe>
+    <ISBN>978-604-69-1235-2</ISBN>
+    <NamXuatBan>2019</NamXuatBan>
+    <TomTat>Truyện ngắn nổi tiếng của Nam Cao về cuộc đời Chí Phèo</TomTat>
+    <SoLuong>20</SoLuong>
   </Sach>
 
-  <!-- Quan hệ Sách - Tác giả -->
-  <Sach_TacGia sach_ref="S1" tacgia_refs="TG1"/>
-  <Sach_TacGia sach_ref="S2" tacgia_refs="TG2"/>
+  <Sach sach_id="S003" nxb_ref="NXB001" theloai_ref="TL001" nguoidung_ref="ND001">
+    <TieuDe>Tắt Đèn</TieuDe>
+    <ISBN>978-604-69-1236-9</ISBN>
+    <NamXuatBan>2018</NamXuatBan>
+    <TomTat>Tiểu thuyết kinh điển của Ngô Tất Tố phản ánh cuộc sống nông dân Việt Nam</TomTat>
+    <SoLuong>18</SoLuong>
+  </Sach>
 
-  <!-- Bản sao sách -->
-  <BanSaoSach bansao_id="BS1" sach_ref="S1" trangthai="con_sach">
-    <MaVach>MV001</MaVach>
+  <Sach sach_id="S004" nxb_ref="NXB004" theloai_ref="TL001" nguoidung_ref="ND001">
+    <TieuDe>Mắt Biếc</TieuDe>
+    <ISBN>978-604-69-1237-6</ISBN>
+    <NamXuatBan>2021</NamXuatBan>
+    <TomTat>Câu chuyện tình đầu trong sáng và day dứt của Ngạn với cô bé Hà Lan mắt biếc</TomTat>
+    <SoLuong>25</SoLuong>
+  </Sach>
+
+  <Sach sach_id="S005" nxb_ref="NXB004" theloai_ref="TL001" nguoidung_ref="ND001">
+    <TieuDe>Tôi Thấy Hoa Vàng Trên Cỏ Xanh</TieuDe>
+    <ISBN>978-604-69-1238-3</ISBN>
+    <NamXuatBan>2022</NamXuatBan>
+    <TomTat>Truyện kể về tuổi thơ nghèo khó nhưng đẹp đẽ của hai anh em Thiều và Tường</TomTat>
+    <SoLuong>30</SoLuong>
+  </Sach>
+
+  <!-- SÁCH - TÁC GIẢ -->
+  <Sach_TacGia sach_ref="S001" tacgia_ref="TG001" />
+  <Sach_TacGia sach_ref="S002" tacgia_ref="TG002" />
+  <Sach_TacGia sach_ref="S003" tacgia_ref="TG003" />
+  <Sach_TacGia sach_ref="S004" tacgia_ref="TG005" />
+  <Sach_TacGia sach_ref="S005" tacgia_ref="TG005" />
+
+  <!-- BẢN SAO SÁCH -->
+  <BanSaoSach bansao_id="BSS001" sach_ref="S001" trang_thai="co_san">
+    <MaVach>1000000000001</MaVach>
   </BanSaoSach>
-  <BanSaoSach bansao_id="BS2" sach_ref="S2" trangthai="dang_muon">
-    <MaVach>MV002</MaVach>
+
+  <BanSaoSach bansao_id="BSS002" sach_ref="S001" trang_thai="da_muon">
+    <MaVach>1000000000002</MaVach>
   </BanSaoSach>
 
-  <!-- Thành viên -->
-  <ThanhVien thanhvien_id="TV1" trangthai="hoat_dong">
-    <HoTen>Nguyễn Văn A</HoTen>
-    <Email>vana@example.com</Email>
-    <SoDienThoaiTV>0901234567</SoDienThoaiTV>
-    <DiaChiTV>Hà Nội</DiaChiTV>
-    <NgayThamGia>2023-01-15</NgayThamGia>
-  </ThanhVien>
+  <BanSaoSach bansao_id="BSS003" sach_ref="S002" trang_thai="co_san">
+    <MaVach>1000000000003</MaVach>
+  </BanSaoSach>
 
-  <!-- Nhân viên -->
-  <NhanVien nhanvien_id="NV1">
-    <HoTen>Trần Thị B</HoTen>
-    <Email>tranb@example.com</Email>
-    <SoDienThoaiNV>0987654321</SoDienThoaiNV>
-    <VaiTro>Thủ thư</VaiTro>
-  </NhanVien>
+  <BanSaoSach bansao_id="BSS004" sach_ref="S002" trang_thai="da_muon">
+    <MaVach>1000000000004</MaVach>
+  </BanSaoSach>
 
-  <!-- Phiếu mượn -->
-  <PhieuMuon phieumuon_id="PM1" bansao_ref="BS2" nhanvien_ref="TV1" thanhvien_ref="NV1">
+  <BanSaoSach bansao_id="BSS005" sach_ref="S003" trang_thai="co_san">
+    <MaVach>1000000000005</MaVach>
+  </BanSaoSach>
+
+  <BanSaoSach bansao_id="BSS006" sach_ref="S003" trang_thai="da_muon">
+    <MaVach>1000000000006</MaVach>
+  </BanSaoSach>
+
+  <BanSaoSach bansao_id="BSS008" sach_ref="S004" trang_thai="da_muon">
+    <MaVach>1000000000008</MaVach>
+  </BanSaoSach>
+
+  <BanSaoSach bansao_id="BSS010" sach_ref="S005" trang_thai="da_muon">
+    <MaVach>1000000000010</MaVach>
+  </BanSaoSach>
+
+  <!-- PHIẾU MƯỢN -->
+  <PhieuMuon phieumuon_id="PM001" bansao_ref="BSS002" nguoidung_ref="ND003" trang_thai="dang_muon">
     <NgayMuon>2024-09-01</NgayMuon>
     <HanTra>2024-09-15</HanTra>
-    <NgayTra></NgayTra>
   </PhieuMuon>
 
-  <!-- Phiếu phạt -->
-  <PhieuPhat phieuphat_id="PP1" da_tra="false" phieumuon_ref="PM1">
-    <SoTien>50000</SoTien>
-    <NgayXuPhat>2024-09-20</NgayXuPhat>
-    <NgayDongPhat></NgayDongPhat>
+  <PhieuMuon phieumuon_id="PM002" bansao_ref="BSS004" nguoidung_ref="ND005" trang_thai="da_tra">
+    <NgayMuon>2024-08-20</NgayMuon>
+    <HanTra>2024-09-03</HanTra>
+    <NgayTra>2024-09-08</NgayTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM003" bansao_ref="BSS006" nguoidung_ref="ND007" trang_thai="dang_muon">
+    <NgayMuon>2024-09-05</NgayMuon>
+    <HanTra>2024-09-19</HanTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM004" bansao_ref="BSS008" nguoidung_ref="ND010" trang_thai="qua_han">
+    <NgayMuon>2024-08-10</NgayMuon>
+    <HanTra>2024-08-24</HanTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM005" bansao_ref="BSS010" nguoidung_ref="ND012" trang_thai="dang_muon">
+    <NgayMuon>2024-09-08</NgayMuon>
+    <HanTra>2024-09-22</HanTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM006" bansao_ref="BSS003" nguoidung_ref="ND003" trang_thai="da_tra">
+    <NgayMuon>2024-08-01</NgayMuon>
+    <HanTra>2024-08-15</HanTra>
+    <NgayTra>2024-08-20</NgayTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM007" bansao_ref="BSS005" nguoidung_ref="ND004" trang_thai="da_tra">
+    <NgayMuon>2024-08-05</NgayMuon>
+    <HanTra>2024-08-19</HanTra>
+    <NgayTra>2024-08-22</NgayTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM009" bansao_ref="BSS006" nguoidung_ref="ND007" trang_thai="qua_han">
+    <NgayMuon>2024-08-01</NgayMuon>
+    <HanTra>2024-08-15</HanTra>
+  </PhieuMuon>
+
+  <PhieuMuon phieumuon_id="PM012" bansao_ref="BSS010" nguoidung_ref="ND012" trang_thai="da_tra">
+    <NgayMuon>2024-09-01</NgayMuon>
+    <HanTra>2024-09-15</HanTra>
+    <NgayTra>2024-09-17</NgayTra>
+  </PhieuMuon>
+
+  <!-- PHIẾU PHẠT -->
+  <PhieuPhat phieuphat_id="PP001" phieumuon_ref="PM004" da_tra="false">
+    <LyDo>Trả sách quá hạn 41 ngày</LyDo>
+    <SoTien>82000</SoTien>
+    <NgayXuPhat>2024-10-04</NgayXuPhat>
+  </PhieuPhat>
+
+  <PhieuPhat phieuphat_id="PP002" phieumuon_ref="PM009" da_tra="false">
+    <LyDo>Trả sách quá hạn 36 ngày</LyDo>
+    <SoTien>72000</SoTien>
+    <NgayXuPhat>2024-10-04</NgayXuPhat>
+  </PhieuPhat>
+
+  <PhieuPhat phieuphat_id="PP003" phieumuon_ref="PM006" da_tra="true">
+    <LyDo>Trả sách quá hạn 5 ngày</LyDo>
+    <SoTien>10000</SoTien>
+    <NgayXuPhat>2024-09-08</NgayXuPhat>
+    <NgayDongPhat>2024-09-08</NgayDongPhat>
+  </PhieuPhat>
+
+  <PhieuPhat phieuphat_id="PP004" phieumuon_ref="PM007" da_tra="true">
+    <LyDo>Trả sách quá hạn 3 ngày</LyDo>
+    <SoTien>6000</SoTien>
+    <NgayXuPhat>2024-09-11</NgayXuPhat>
+    <NgayDongPhat>2024-09-11</NgayDongPhat>
+  </PhieuPhat>
+
+  <PhieuPhat phieuphat_id="PP005" phieumuon_ref="PM012" da_tra="true">
+    <LyDo>Trả sách quá hạn 2 ngày</LyDo>
+    <SoTien>4000</SoTien>
+    <NgayXuPhat>2024-09-13</NgayXuPhat>
+    <NgayDongPhat>2024-09-13</NgayDongPhat>
   </PhieuPhat>
 
 </ThuVien>

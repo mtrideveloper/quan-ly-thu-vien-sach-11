@@ -1,84 +1,88 @@
-<!ELEMENT ThuVien (TacGia+, NhaXuatBan+, TheLoai+, Sach+, Sach_TacGia+, BanSaoSach+, ThanhVien+, NhanVien+, PhieuMuon*, PhieuPhat*)>
+<!ELEMENT ThuVien (NguoiDung+, TacGia+, NhaXuatBan+, TheLoai+, 
+                   Sach+, Sach_TacGia*, BanSaoSach+, PhieuMuon*, PhieuPhat*)>
+
+<!-- Người dùng -->
+<!ELEMENT NguoiDung (HoTen, Email, Password, SoDienThoai?, DiaChi?, NgayThamGia?)>
+<!ATTLIST NguoiDung
+    nguoidung_id ID #REQUIRED
+    trang_thai (hoat_dong|tam_ngung) "hoat_dong"
+    vai_tro (thanh_vien|nhan_vien) #REQUIRED>
+
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT SoDienThoai (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT NgayThamGia (#PCDATA)>
 
 <!-- Tác giả -->
-<!ELEMENT TacGia (HoTen, NgaySinh, TieuSu)>
+<!ELEMENT TacGia (HoTen, NgaySinh?, TieuSu?)>
 <!ATTLIST TacGia tacgia_id ID #REQUIRED>
-<!ELEMENT HoTen (#PCDATA)>
+
 <!ELEMENT NgaySinh (#PCDATA)>
 <!ELEMENT TieuSu (#PCDATA)>
 
 <!-- Nhà xuất bản -->
-<!ELEMENT NhaXuatBan (Ten, DiaChiNXB, SoDienThoaiNXB)>
+<!ELEMENT NhaXuatBan (Ten, DiaChi?, SoDienThoai?)>
 <!ATTLIST NhaXuatBan nxb_id ID #REQUIRED>
+
 <!ELEMENT Ten (#PCDATA)>
-<!ELEMENT DiaChiNXB (#PCDATA)>
-<!ELEMENT SoDienThoaiNXB (#PCDATA)>
 
 <!-- Thể loại -->
 <!ELEMENT TheLoai (TenTheLoai)>
 <!ATTLIST TheLoai theloai_id ID #REQUIRED>
+
 <!ELEMENT TenTheLoai (#PCDATA)>
 
 <!-- Sách -->
-<!ELEMENT Sach (TieuDe, ISBN, NamXuatBan, TomTat, SoLuong)>
-<!ATTLIST Sach 
-          sach_id ID #REQUIRED
-          nxb_ref IDREF #REQUIRED
-          theloai_ref IDREF #REQUIRED>
+<!ELEMENT Sach (TieuDe, ISBN?, NamXuatBan?, TomTat?, SoLuong?)>
+<!ATTLIST Sach
+    sach_id ID #REQUIRED
+    nxb_ref IDREF #IMPLIED
+    theloai_ref IDREF #IMPLIED
+    nguoidung_ref IDREF #IMPLIED>
+
 <!ELEMENT TieuDe (#PCDATA)>
 <!ELEMENT ISBN (#PCDATA)>
 <!ELEMENT NamXuatBan (#PCDATA)>
 <!ELEMENT TomTat (#PCDATA)>
 <!ELEMENT SoLuong (#PCDATA)>
 
-<!-- Quan hệ sách - tác giả (nhiều - nhiều) -->
-<!ELEMENT Sach_TacGia EMPTY> <!-- không có element con, không có text (#PCDATA), chỉ được phép có thuộc tính. -->
-<!ATTLIST Sach_TacGia 
-          sach_ref IDREF #REQUIRED
-          tacgia_refs IDREFS #REQUIRED>
+<!-- Liên kết Sách - Tác giả -->
+<!ELEMENT Sach_TacGia EMPTY>
+<!ATTLIST Sach_TacGia
+    sach_ref IDREF #REQUIRED
+    tacgia_ref IDREF #REQUIRED>
 
 <!-- Bản sao sách -->
 <!ELEMENT BanSaoSach (MaVach)>
-<!ATTLIST BanSaoSach 
-          bansao_id ID #REQUIRED
-          sach_ref IDREF #REQUIRED
-          trangthai (con_sach|dang_muon|mat|sua_chua) "con_sach">
+<!ATTLIST BanSaoSach
+    bansao_id ID #REQUIRED
+    sach_ref IDREF #REQUIRED
+    trang_thai (da_muon|co_san|mat) "co_san">
+
 <!ELEMENT MaVach (#PCDATA)>
 
-
-<!-- Thành viên -->
-<!ELEMENT ThanhVien (HoTen, Email, SoDienThoaiTV, DiaChiTV?, NgayThamGia)>
-<!ATTLIST ThanhVien 
-          thanhvien_id ID #REQUIRED
-          trangthai (hoat_dong|tam_ngung|het_han) "hoat_dong">
-<!ELEMENT Email (#PCDATA)>
-<!ELEMENT SoDienThoaiTV (#PCDATA)>
-<!ELEMENT DiaChiTV (#PCDATA)>
-<!ELEMENT NgayThamGia (#PCDATA)>
-
-<!-- Nhân viên -->
-<!ELEMENT NhanVien (HoTen, Email, SoDienThoaiNV, VaiTro)>
-<!ATTLIST NhanVien nhanvien_id ID #REQUIRED>
-<!ELEMENT SoDienThoaiNV (#PCDATA)>
-<!ELEMENT VaiTro (#PCDATA)>
-
 <!-- Phiếu mượn -->
-<!ELEMENT PhieuMuon (NgayMuon, HanTra, NgayTra)>
-<!ATTLIST PhieuMuon 
-          phieumuon_id ID #REQUIRED
-          bansao_ref IDREF #REQUIRED
-          thanhvien_ref IDREF #REQUIRED
-          nhanvien_ref IDREF #REQUIRED>
+<!ELEMENT PhieuMuon (NgayMuon, HanTra, NgayTra?)>
+<!ATTLIST PhieuMuon
+    phieumuon_id ID #REQUIRED
+    bansao_ref IDREF #REQUIRED
+    nguoidung_ref IDREF #REQUIRED
+    trang_thai (dang_muon|da_tra|qua_han) "dang_muon">
+
 <!ELEMENT NgayMuon (#PCDATA)>
 <!ELEMENT HanTra (#PCDATA)>
 <!ELEMENT NgayTra (#PCDATA)>
 
 <!-- Phiếu phạt -->
-<!ELEMENT PhieuPhat (SoTien, NgayXuPhat, NgayDongPhat)>
-<!ATTLIST PhieuPhat 
-          phieuphat_id ID #REQUIRED
-          phieumuon_ref IDREF #REQUIRED
-          da_tra (true|false) "false">
+<!ELEMENT PhieuPhat (LyDo, SoTien, NgayXuPhat, NgayDongPhat?)>
+<!ATTLIST PhieuPhat
+    phieuphat_id ID #REQUIRED
+    phieumuon_ref IDREF #REQUIRED
+    da_tra (true|false) "false">
+
+<!ELEMENT LyDo (#PCDATA)>
 <!ELEMENT SoTien (#PCDATA)>
 <!ELEMENT NgayXuPhat (#PCDATA)>
 <!ELEMENT NgayDongPhat (#PCDATA)>
